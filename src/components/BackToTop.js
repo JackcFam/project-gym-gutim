@@ -14,7 +14,7 @@ function BackToTop(props) {
         TransitionClassName="back-to-top-trasition "
       >
         <div>
-          <span className="symbol-btn-back-to-top">
+          <span className="btn-back-to-top">
             <i className="fas fa-arrow-up"></i>
           </span>
         </div>
