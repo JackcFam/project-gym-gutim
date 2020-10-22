@@ -2085,3 +2085,43 @@ ul, ol {
 	from {transform:scale(0)}
 	to {transform:scale(1)}
   }
+/* ===============BACK TO TOP=========================== */
+.back-to-top {
+  display: none;
+  position: fixed;
+  width: 40px;
+  height: 38px;
+  bottom: 40px;
+  right: 40px;
+  background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+  opacity: 0.8;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+.back-to-top-trasition {
+  display: flex;
+}
+.symbol-btn-back-to-top {
+  font-size: 25px;
+  color: white;
+  line-height: 1em;
+}
+
+.back-to-top:hover {
+  opacity: 1;
+  background-color:  #f67831;
+}
+
+@media (max-width: 575px) {
+  .back-to-top {
+    bottom: 25px;
+    right: 25px;
+  }
+}

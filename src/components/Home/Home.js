@@ -6,6 +6,7 @@ import ClassHome from "./ClassHome";
 import Stories from "./Stories";
 import Trainer from "./Trainer";
 import TopNews from "./TopNews";
+import BackToTop from "../BackToTop";
 
 function Home(props) {
   return (
@@ -24,6 +25,7 @@ function Home(props) {
       <Stories></Stories>
       {/* BLOG hOME */}
       <TopNews></TopNews>
+      <BackToTop></BackToTop>
     </>
   );
 }
