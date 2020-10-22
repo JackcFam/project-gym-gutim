@@ -66,4 +66,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
 # project-gym-gutim
+
+Đây là project web sử dụng React.
+Tên project: Gym Gutim
+Người viết: Phạm Ngọc Nhật.
+// sử dụng như thế nào ?
+sau khi tải source code về. bật terminal lên
+cd gym-gutim
+npm start
