@@ -1,6 +1,7 @@
 import React from "react";
 import AddClass from "./AddClass";
 import LichTap from './LichTap';
+import BackToTop from "../BackToTop";
 function Classes(props) {
   return (
     <div>
@@ -24,11 +25,9 @@ function Classes(props) {
           </div>
         </div>
       </section>
-
       <AddClass></AddClass>
-
       <LichTap></LichTap>
-
+      <BackToTop></BackToTop>
     </div>
   );
 }

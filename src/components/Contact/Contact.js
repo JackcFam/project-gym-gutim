@@ -1,11 +1,10 @@
 import React from "react";
-import PropTypes from "prop-types";
+import BackToTop from "../BackToTop";
 
-Contact.propTypes = {};
 
 function Contact(props) {
   return (
-    
+
       <div>
         <section
           className="breadcrumb-section set-bg"
@@ -96,9 +95,10 @@ function Contact(props) {
             style={{ border: 0 }}
             allowFullScreen
           ></iframe>
-        </div>
       </div>
-    
+      <BackToTop></BackToTop>
+      </div>
+
   );
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import ProductList from "./ProductList";
-
+import BackToTop from "../BackToTop";
 
 function Gallery() {
 
@@ -80,6 +80,7 @@ function Gallery() {
           </div>
         </div>
       </div> */}
+      <BackToTop></BackToTop>
     </>
   );
 }

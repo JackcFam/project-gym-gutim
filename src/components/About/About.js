@@ -7,6 +7,7 @@ import Images from './Images';
 import {Link} from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 import '../../css/modal-video.min.css';
+import BackToTop from "../BackToTop";
 
 
 function About(props) {
@@ -150,7 +151,8 @@ function About(props) {
   </section>
 
 
-  <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="jC5xlKIQgR8" onClose={() => setOpen(false)} />
+      <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="jC5xlKIQgR8" onClose={() => setOpen(false)} />
+      <BackToTop></BackToTop>
 </>
 
 

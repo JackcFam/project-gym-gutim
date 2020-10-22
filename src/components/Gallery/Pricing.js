@@ -1,6 +1,7 @@
 import React from "react";
 import "../../css/App.css";
-Pricing.propTypes = {};
+import BackToTop from "../BackToTop";
+
 
 function Pricing(props) {
   return (
@@ -163,7 +164,8 @@ function Pricing(props) {
         </div>
       </div>
     </div>
-  </section>
+      </section>
+      <BackToTop></BackToTop>
 </div>
 
   );
