@@ -15,7 +15,7 @@ function Blog(props) {
                 <h2>Blog</h2>
                 <div className="breadcrumb-option">
                   <a href="./index.html">
-                    <i className="fa fa-home" /> Home
+                    <i className="fa fa-home" /> Trang chủ
                   </a>
                   <span>Blog</span>
                 </div>

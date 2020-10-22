@@ -125,8 +125,7 @@ ul, ol {
 	text-align: center;
 	width: 160px;
 	height: 46px;
-	/* border-left: 2px solid #eb3c5a;
-	border-right: 2px solid #f67831; */
+	opacity: 0.7;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	background-position: 0 0, 0 100%;
@@ -144,6 +143,7 @@ ul, ol {
 }
 .primary-btn:after {
 	color: #fff;
+	border-radius: 5px;
 	-webkit-transition-duration: 500ms;
 	-o-transition-duration: 500ms;
 	transition-duration: 500ms;
@@ -159,6 +159,11 @@ ul, ol {
 	left: 0;
 	z-index: -1;
 	opacity: 1;
+}
+
+.primary-btn:hover {
+	opacity: 1;
+	cursor: pointer;
 }
 /* Preloder */
 
@@ -326,6 +331,7 @@ ul, ol {
 	min-width: 100%;
 }
 .about-pic .play-btn {
+	cursor: pointer;
 	position: absolute;
 	left: 50%;
 	top: 50%;

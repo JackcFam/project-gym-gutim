@@ -14,12 +14,12 @@ function Contact(props) {
             <div className="row">
               <div className="col-lg-12">
                 <div className="breadcrumb-text">
-                  <h2>Contact</h2>
+                  <h2>Liên Hệ</h2>
                   <div className="breadcrumb-option">
                     <a href="./index.html">
-                      <i className="fa fa-home" /> Home
+                      <i className="fa fa-home" /> Trang chủ
                     </a>
-                    <span>Contact</span>
+                    <span>Liên Hệ</span>
                   </div>
                 </div>
               </div>
