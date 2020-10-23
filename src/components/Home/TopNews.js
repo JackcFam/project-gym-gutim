@@ -83,6 +83,7 @@ function TopNews(props) {
 
                 <Slider {...settings} style={{ width: "100%" }}>
                   {topnew.map((item) => (
+                    
                     <React.Fragment key={item.id}>
                       <Col>
                         <Card className="single-blog-item">

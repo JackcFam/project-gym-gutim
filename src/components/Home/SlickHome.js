@@ -17,7 +17,7 @@ function SlickHome(props) {
     infinite: false,
     speed: 4000,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
     arrows: false,
@@ -58,24 +58,37 @@ function SlickHome(props) {
       {classes.map((classe) => {
         return (
           <div className="col" key={classe.id}>
-          <div  className="single-class-item set-bg">
-            <div
-              style={{
-                backgroundImage: `url('${classe.img}')`,
-                height: "100%",
-                width: "100%",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-                cursor: "pointer",
-              }}
-            ></div>
-            <div className="si-text">
-              <h4>{classe.name}</h4>
-              <span>
-                <i className="fa fa-user" /> {classe.teacher}
-              </span>
+            <div className="single-class-item set-bg">
+              <div
+                style={{
+                  backgroundImage: `url('${classe.img}')`,
+                  height: "100%",
+                  width: "100%",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  cursor: "pointer",
+                }}
+              >
+                <div className="banner-class">
+                  <p className="name-class-banner">{classe.name}</p>
+                  <p ClassName="caption-banner-class" style={{
+                    color: "white", fontSize: "13px",fontWeight: "500"}}
+                  >
+                    Nơi bạn có thể thư giản và tập luyện trong một môi trường
+                    đầy đủ tiện nghi...
+                  </p>
+                  <a className="join-now" href="/" >
+                    Join Now
+                  </a>
+                </div>
+              </div>
+              <div className="si-text">
+                <h4>{classe.name}</h4>
+                <span>
+                  <i className="fa fa-user" /> {classe.teacher}
+                </span>
+              </div>
             </div>
-          </div>
           </div>
         );
       })}
