@@ -24,10 +24,10 @@ function Home(props) {
       <Trainer></Trainer>
       {/* success Story */}
       <Stories></Stories>
-      {/* BLOG hOME */}
+      {/* BLOG HOME */}
       <TopNews></TopNews>
       <BackToTop></BackToTop>
-      
+
     </>
   );
 }
