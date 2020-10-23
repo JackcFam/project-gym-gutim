@@ -1,30 +1,17 @@
 import React from 'react';
-import ChatBot from "react-simple-chatbot";
-// import PropTypes from 'prop-types';
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
-// ChatBot.propTypes = {
-
-// };
 
 function ChatBots(props) {
-    const steps = [
-      {
-        id: "0",
-        message: "Welcome to react chatbot!",
-        trigger: "1",
-      },
-      {
-        id: "1",
-        message: "Bye!",
-        end: true,
-      },
-      {
-        id: "2",
-        message: "Bye!",
-        end: true,
-      },
-    ];
-    return <ChatBot steps={steps} ></ChatBot>;
+
+
+    return (
+      <MessengerCustomerChat
+        pageId="<PAGE_ID>"
+        appId="<APP_ID>"
+        htmlRef="<REF_STRING>"
+      />
+    );
 }
 
 export default ChatBots;
