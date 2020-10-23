@@ -46,7 +46,7 @@ function Menu(props) {
                 <NavLink to="./blog">Blog</NavLink>
               </li>
               <li>
-                <NavLink to="./contact">Liên hệ</NavLink>
+                <NavLink to="./contact">Góp ý - Phản hồi</NavLink>
               </li>
             </ul>
           </nav>

@@ -20,10 +20,28 @@ function TopNews(props) {
     slidesToScroll: 1,
     responsive: [
       {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -31,8 +49,8 @@ function TopNews(props) {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -43,7 +61,7 @@ function TopNews(props) {
           slidesToScroll: 1,
         },
       },
-    ]
+    ],
   };
   return (
     <>
@@ -76,28 +94,29 @@ function TopNews(props) {
                 <Row>
                   <div className="col-lg-12">
                     <div className="section-title">
-                      <h2>Bài viết hữu ích nhất</h2>
+                      <h2>THÔNG TIN HỮU ÍCH</h2>
                     </div>
                   </div>
                 </Row>
 
                 <Slider {...settings} style={{ width: "100%" }}>
                   {topnew.map((item) => (
-                    
                     <React.Fragment key={item.id}>
                       <Col>
-                        <Card className="single-blog-item">
-                          <Card.Img src={item.anh} alt="true" />
-                          <Card.Body className="blog-widget">
-                            <div className="bw-date">February 17, 2019</div>
-                            <a href="/blog" className="tag">
-                              #Gym
-                            </a>
-                          </Card.Body>
-                          <h4>
-                            <a href="/blog">{item.tieuDe}</a>
-                          </h4>
-                        </Card>
+                        <Container>
+                          <Card className="single-blog-item">
+                            <Card.Img src={item.anh} alt="true" />
+                            <Card.Body className="blog-widget">
+                              <div className="bw-date">February 17, 2019</div>
+                              <a href="/blog" className="tag">
+                                #Gym
+                              </a>
+                            </Card.Body>
+                            <h4>
+                              <a href="/blog">{item.tieuDe}</a>
+                            </h4>
+                          </Card>
+                        </Container>
                       </Col>
                     </React.Fragment>
                   ))}

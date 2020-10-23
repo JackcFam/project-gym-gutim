@@ -1284,10 +1284,20 @@ ul, ol {
 }
 .single-blog-item {
 	margin-bottom: 42px;
+	padding: 0 0 10px 0;
+	overflow: hidden;
+	transition: all 0.4s;
+	cursor: pointer;
+
+}
+.single-blog-item:hover img {
+	transform: scale(0.9);
+	transition: all 0.5s;
 }
 .single-blog-item img {
 	min-width: 100%;
-	margin-bottom: 30px;
+	height: 250px;
+
 }
 .single-blog-item .blog-widget {
 	margin-bottom: 10px;
@@ -1306,6 +1316,13 @@ ul, ol {
 	color: #111111;
 	font-weight: 600;
 	line-height: 30px;
+	font-size: 23px;
+	display: block;
+    text-align: justify;
+    padding: 10px 10px 0 10px;
+}
+.single-blog-item h4 a:hover {
+	color: #f67831;
 }
 /*----------------------------
   Blog Details Hero Section
