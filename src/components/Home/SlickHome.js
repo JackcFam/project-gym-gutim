@@ -19,7 +19,7 @@ function SlickHome(props) {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    autoplay: true,
+    autoplay: false,
     arrows: false,
     autoplaySpeed: 15000,
     cssEase: "linear",

@@ -12,7 +12,6 @@ function AddClass(props) {
   }, []);
 
   return (
-
     <section className="classes-section classes-page spad">
       <div className="container">
         <div className="row">
@@ -34,6 +33,24 @@ function AddClass(props) {
                 }}
                 data-setbg="img/classes/classes-8.jpg"
               >
+                <div className="banner-class">
+                  <p className="name-class-banner">{value.name}</p>
+                  <p
+                    ClassName="caption-banner-class"
+                    style={{
+                      color: "white",
+                      fontSize: "13px",
+                      fontWeight: "500",
+                    }}
+                  >
+                    Nơi bạn có thể thư giản và tập luyện trong một môi trường
+                    đầy đủ tiện nghi...
+                  </p>
+                  <a className="join-now" href="/">
+                    Join Now
+                  </a>
+                </div>
+
                 <div className="si-text">
                   <h4>{value.name}</h4>
                   <span>

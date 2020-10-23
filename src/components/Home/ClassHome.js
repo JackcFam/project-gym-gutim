@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import SlickHome from "./SlickHome";
 
 function ClassHome(props) {
@@ -21,6 +22,11 @@ function ClassHome(props) {
             <div className="row">
               <div className="col">
                 <SlickHome></SlickHome>
+                <div className="can-giua">
+                  <Link to="/classes" className="primary-btn">
+                    Tìm hiểu thêm
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

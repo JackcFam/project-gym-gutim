@@ -94,7 +94,7 @@ ul, ol {
 }
 .section-title h2 {
 	color: #111111;
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -2220,4 +2220,10 @@ ul, ol {
 }
 .slick-dots li.slick-active button:before  {
 	color: #f67831;
+}
+.can-giua {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
 }
