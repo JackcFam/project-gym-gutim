@@ -143,7 +143,6 @@ ul, ol {
 }
 .primary-btn:after {
 	color: #fff;
-	border-radius: 5px;
 	-webkit-transition-duration: 500ms;
 	-o-transition-duration: 500ms;
 	transition-duration: 500ms;
@@ -2163,4 +2162,3 @@ ul, ol {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-

@@ -9,8 +9,8 @@ export default function Client() {
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
-    speed: 10000,
-    autoplaySpeed: 8000,
+    speed: 4000,
+    autoplaySpeed: 5000,
     adaptiveHeight: true,
     cssEase: "linear"
   };

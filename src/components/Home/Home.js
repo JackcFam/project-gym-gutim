@@ -7,6 +7,7 @@ import Stories from "./Stories";
 import Trainer from "./Trainer";
 import TopNews from "./TopNews";
 import BackToTop from "../BackToTop";
+import ChatBots from "../ChatBots"
 
 function Home(props) {
   return (
@@ -26,6 +27,7 @@ function Home(props) {
       {/* BLOG hOME */}
       <TopNews></TopNews>
       <BackToTop></BackToTop>
+      {/* <ChatBots></ChatBots> */}
     </>
   );
 }
