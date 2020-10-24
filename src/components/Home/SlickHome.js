@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
+import {Link} from "react-router-dom"
 
 function SlickHome(props) {
   const [classes, setClasses] = useState([]);
@@ -55,13 +56,13 @@ function SlickHome(props) {
 
   return (
     <Slider {...settings} style={{ width: "100%" }}>
-      {classes.map((classe) => {
+      {classes.map((classes) => {
         return (
-          <div className="col" key={classe.id}>
+          <div className="col" key={classes.id}>
             <div className="single-class-item set-bg">
               <div
                 style={{
-                  backgroundImage: `url('${classe.img}')`,
+                  backgroundImage: `url('${classes.img}')`,
                   height: "100%",
                   width: "100%",
                   backgroundSize: "cover",
@@ -70,22 +71,22 @@ function SlickHome(props) {
                 }}
               >
                 <div className="banner-class">
-                  <p className="name-class-banner">{classe.name}</p>
+                  <p className="name-class-banner">{classes.name}</p>
                   <p ClassName="caption-banner-class" style={{
                     color: "white", fontSize: "13px",fontWeight: "500"}}
                   >
                     Nơi bạn có thể thư giản và tập luyện trong một môi trường
                     đầy đủ tiện nghi...
                   </p>
-                  <a className="join-now" href="/" >
+                  <Link className="join-now" to={"/classes/" + classes.slug} >
                     Join Now
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="si-text">
-                <h4>{classe.name}</h4>
+                <h4>{classes.name}</h4>
                 <span>
-                  <i className="fa fa-user" /> {classe.teacher}
+                  <i className="fa fa-user" /> {classes.teacher}
                 </span>
               </div>
             </div>

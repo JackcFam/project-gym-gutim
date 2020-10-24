@@ -1351,7 +1351,7 @@ ul, ol {
 }
 .bd-hero-text h2 {
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 60px;
 	font-weight: 600;
 	line-height: 60px;
 	text-transform: uppercase;
@@ -1967,6 +1967,7 @@ ul, ol {
 .nav-menu .mainmenu ul li a:hover {
     color:#f15d44;
 }
+
 .svg-wrapper {
     height: 40px;
     position: relative;

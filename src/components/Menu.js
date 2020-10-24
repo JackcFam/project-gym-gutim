@@ -29,24 +29,24 @@ function Menu(props) {
           <nav className="mainmenu">
             <ul>
               <li>
-                <NavLink activeClassName="active" exact to="./">
+                <NavLink activeClassName="active" exact to="/">
                   Trang chủ
                 </NavLink>
               </li>
               <li>
-                <NavLink to="./about">Về chúng tôi</NavLink>
+                <NavLink to="/about">Về chúng tôi</NavLink>
               </li>
               <li>
-                <NavLink to="./classes">Lớp học</NavLink>
+                <NavLink to="/classes">Lớp học</NavLink>
               </li>
               <li>
-                <NavLink to="./pricing">Dịch vụ</NavLink>
+                <NavLink to="/pricing">Dịch vụ</NavLink>
               </li>
               <li>
-                <NavLink to="./blog">Blog</NavLink>
+                <NavLink to="/blog">Blog</NavLink>
               </li>
               <li>
-                <NavLink to="./contact">Góp ý - Phản hồi</NavLink>
+                <NavLink to="/contact">Góp ý - Phản hồi</NavLink>
               </li>
             </ul>
           </nav>

@@ -1,6 +1,95 @@
-import React from "react";
-import './Class-content.css';
+import React, { useState, useEffect } from "react";
+import BannerQuangCao from "./BannerQuangCao";
+import { Link } from "react-router-dom";
+import { Container, Card, Row, Col } from "react-bootstrap";
+import { useParams } from "react-router-dom";
+import Slider from "react-slick";
+import "./Class-content.css";
 function ClassContent(props) {
+  let dem = 1;
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+          autoplay: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          dots: true,
+        },
+      },
+    ],
+  };
+
+  const params = useParams();
+  const { slug } = params;
+  const [lophocchitiet, setLophocchitiet] = useState([]);
+  const [lophocchitiet2, setLophocchitiet2] = useState([]);
+
+  useEffect(() => {
+    async function getLopchitiet() {
+      const response = await fetch(
+        "https://api-webdata.herokuapp.com/classes?slug=" + slug
+      );
+      const lophocchitiet = await response.json();
+      setLophocchitiet(lophocchitiet[0]);
+    }
+    getLopchitiet();
+  }, [slug]);
+
+  useEffect(() => {
+    async function getLopchitiet2() {
+      const response = await fetch("https://api-webdata.herokuapp.com/classes");
+      const lophocchitiet = await response.json();
+      setLophocchitiet2(lophocchitiet);
+    }
+    getLopchitiet2();
+  }, []);
+
   return (
     <>
       <section
@@ -11,11 +100,8 @@ function ClassContent(props) {
           <div className="row">
             <div className="col-lg-12">
               <div className="bd-hero-text">
-                <span>CAMERA</span>
-                <h2>
-                  10 States At Risk of Rural Hospital
-                  <br /> Closures
-                </h2>
+                <span>Class</span>
+                <h2>{lophocchitiet.name}</h2>
               </div>
             </div>
           </div>
@@ -28,7 +114,7 @@ function ClassContent(props) {
             <div className="col-lg-4">
               <div className="classes__sidebar">
                 <div className="classes__sidebar__item classes__sidebar__item--info">
-                  <h4>Classes Information</h4>
+                  <h4>Thông tin lớp học</h4>
                   <ul className="classes__sidebar__item__widget">
                     <li>
                       <span className="icon_calendar" /> Mon, Wed, Fri
@@ -46,39 +132,36 @@ function ClassContent(props) {
                       <span className="icon_id" /> Jordan Lawson
                     </li>
                   </ul>
-                  <a href="#" className="sidebar-btn">
-                    JOIN NOW
+                  <a href="/" className="sidebar-btn">
+                    Đăng ký ngay
                   </a>
                 </div>
                 <div className="classes__sidebar__item">
                   <h4>About Instructor</h4>
                   <div className="classes__sidebar__instructor">
                     <div className="classes__sidebar__instructor__pic">
-                      <img
-                        src="img/classes-details/classes-instructor.png"
-                        alt
-                      />
+                      <img src="https://i.imgur.com/NqnUjlU.png" alt="true" />
                     </div>
                     <div className="classes__sidebar__instructor__text">
                       <div className="classes__sidebar__instructor__title">
-                        <h4>Tracy Maclaren</h4>
-                        <span>Yoga Teacher</span>
+                        <h4>{lophocchitiet.teacher}</h4>
+                        <span>{lophocchitiet.name} Teacher</span>
                       </div>
                       <p>
                         Yoga &amp; Therapy Certificate of
                         <br /> Uttarakhand University Sanskirt
                       </p>
                       <div className="classes__sidebar__instructor__social">
-                        <a href="#">
+                        <a href="www.facebook.com">
                           <span className="social_facebook" />
                         </a>
-                        <a href="#">
+                        <a href="www.facebook.com">
                           <span className="social_twitter" />
                         </a>
-                        <a href="#">
+                        <a href="www.facebook.com">
                           <span className="social_instagram" />
                         </a>
-                        <a href="#">
+                        <a href="www.facebook.com">
                           <span className="social_linkedin" />
                         </a>
                       </div>
@@ -90,7 +173,7 @@ function ClassContent(props) {
                   <div className="classes__sidebar__comment__list">
                     <div className="classes__sidebar__comment">
                       <div className="classes__sidebar__comment__pic">
-                        <img src="img/classes-details/comment-1.png" alt />
+                        <img src="https://i.imgur.com/9iK6CRX.png" alt="true" />
                         <div className="classes__sidebar__comment__rating">
                           <i className="fa fa-star" />
                           <i className="fa fa-star" />
@@ -110,7 +193,7 @@ function ClassContent(props) {
                     </div>
                     <div className="classes__sidebar__comment">
                       <div className="classes__sidebar__comment__pic">
-                        <img src="img/classes-details/comment-2.png" alt />
+                        <img src="https://i.imgur.com/NH1sGwh.png" alt="true" />
                         <div className="classes__sidebar__comment__rating">
                           <i className="fa fa-star" />
                           <i className="fa fa-star" />
@@ -135,7 +218,7 @@ function ClassContent(props) {
             <div className="col-lg-8">
               <div className="classes__details">
                 <div className="classes__details__large">
-                  <img src="img/classes-details/cd-large.jpg" alt />
+                  <img src={lophocchitiet.img} alt="true" />
                   <span>Beginer</span>
                 </div>
                 <ul className="classes__details__widget">
@@ -146,32 +229,29 @@ function ClassContent(props) {
                     <span className="icon_clock_alt" /> 18:30 - 19:30
                   </li>
                 </ul>
-                <h2>100 Hour Yoga Course Rishikesh</h2>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered that the alteration
-                  in some form by injected humour or the an randomised words
-                  which don’t look even evry is and slightly believable. If you
-                  are going to use a passage of Lorem Ipsum you need to be sure
-                  there isn’t is the anything aembarrassing hidden in the middle
-                  of text.Ipsum available but the that majority have that
-                  suffered is humour or randomised words.
-                </p>
+                <h2>100 Hour of class {lophocchitiet.name}</h2>
+                <p>{lophocchitiet.content}</p>
                 <div className="classes__details__item">
                   <div className="row">
                     <div className="col-lg-4 col-md-4">
-                      <img src="img/classes-details/cd-item-1.jpg" alt />
+                      <img src="https://i.imgur.com/7Xn7zQm.jpg" alt="true" />
                     </div>
                     <div className="col-lg-8 col-md-8">
                       <div className="row">
                         <div className="col-lg-6 col-md-6">
-                          <img src="img/classes-details/cd-item-2.jpg" alt />
+                          <img
+                            src="https://i.imgur.com/g1UOOoi.jpg"
+                            alt="true"
+                          />
                         </div>
                         <div className="col-lg-6 col-md-6">
-                          <img src="img/classes-details/cd-item-3.jpg" alt />
+                          <img
+                            src="https://i.imgur.com/EpYq5sz.jpg"
+                            alt="true"
+                          />
                         </div>
                       </div>
-                      <img src="img/classes-details/cd-item-4.jpg" alt />
+                      <img src="https://i.imgur.com/okivv6a.jpg" alt="true" />
                     </div>
                   </div>
                 </div>
@@ -205,130 +285,71 @@ function ClassContent(props) {
         </div>
       </section>
       {/* Classes Section End */}
-      {/* Leave Comment Begin */}
-      <div className="leave-comment spad">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="leave__comment__text">
-                <h2>Leave A Comment</h2>
-                <form action="#">
-                  <div className="row">
-                    <div className="col-lg-6 col-md-6">
-                      <input type="text" placeholder="Name*" />
-                    </div>
-                    <div className="col-lg-6 col-md-6">
-                      <input type="text" placeholder="Email*" />
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="leave__comment__rating">
-                        <h5>Your Rating:</h5>
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                      </div>
-                    </div>
-                    <div className="col-lg-12 text-center">
-                      <textarea placeholder="Your Comment" defaultValue={""} />
-                      <button type="submit" className="site-btn">
-                        Submit
-                      </button>
+      <BannerQuangCao></BannerQuangCao>
+      {/* Upcoming Classes Section Begin */}
+      <Container>
+        <Row>
+          <Col>
+            <section className="upcoming-classes spad">
+              <Container>
+                <Row>
+                  <div className="col-lg-12">
+                    <div className="section-title normal-title">
+                      <h2>Mọi người cũng đã đăng ký</h2>
                     </div>
                   </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Leave Comment End */}
-      {/* Upcoming Classes Section Begin */}
-      <section className="upcoming-classes spad">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title normal-title">
-                <h2>Feature Course</h2>
-                <p>
-                  The trainings are multi-style and you will learn and practice{" "}
-                  <br />
-                  Hatha Vinyasa (flow) and Yin Yoga.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="classes__item">
-                <div
-                  className="classes__item__pic set-bg"
-                  data-setbg="img/classes/classes-10.jpg"
-                >
-                  <span>20 Jun 2019</span>
-                </div>
-                <div className="classes__item__text">
-                  <p>14 Days | Start on 10th Every Month</p>
-                  <h4>
-                    <a href="#">100 Hour Yoga Course Rishikesh</a>
-                  </h4>
-                  <h6>
-                    Jordan Lawson <span>- Yoga Teacher</span>
-                  </h6>
-                  <a href="#" className="class-btn">
-                    JOIN NOW
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="classes__item">
-                <div
-                  className="classes__item__pic set-bg"
-                  data-setbg="img/classes/classes-11.jpg"
-                >
-                  <span>20 Jun 2019</span>
-                </div>
-                <div className="classes__item__text">
-                  <p>14 Days | Start on 10th Every Month</p>
-                  <h4>
-                    <a href="#">200 Hour Yoga Course Rishikesh</a>
-                  </h4>
-                  <h6>
-                    Jordan Lawson <span>- Yoga Teacher</span>
-                  </h6>
-                  <a href="#" className="class-btn">
-                    JOIN NOW
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="classes__item">
-                <div
-                  className="classes__item__pic set-bg"
-                  data-setbg="img/classes/classes-12.jpg"
-                >
-                  <span>20 Jun 2019</span>
-                </div>
-                <div className="classes__item__text">
-                  <p>14 Days | Start on 10th Every Month</p>
-                  <h4>
-                    <a href="#">300 Hour Yoga Course Rishikesh</a>
-                  </h4>
-                  <h6>
-                    Jordan Lawson <span>- Yoga Teacher</span>
-                  </h6>
-                  <a href="#" className="class-btn">
-                    JOIN NOW
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+                </Row>
+                <Row>
+                  <Slider {...settings} style={{ width: "100%" }}>
+                    {lophocchitiet2.map((value) => {
+                      if (value.id !== lophocchitiet.id) {
+                        if (dem <= 6) {
+                          dem++;
+                          return (
+                            <Container>
+                              <React.Fragment key={value.id}>
+                                <Col>
+                                  <Link to={"/classes/" + value.slug}>
+                                    <Card className="classes__item">
+                                      <div
+                                        className="classes__item__pic set-bg"
+                                        data-setbg="img/classes/classes-10.jpg"
+                                      >
+                                        <Card.Img src={value.img} alt="true" />
+                                      </div>
+                                      <Card.Body className="classes__item__text">
+                                        <p>
+                                          14 Days | Start on 10th Every Month
+                                        </p>
+                                        <h4>
+                                          <Link to={"/classes/" + value.slug}>
+                                            {value.name}
+                                          </Link>
+                                        </h4>
+                                        <h6>
+                                          {value.teacher}{" "}
+                                          <span>- Gutim Teacher</span>
+                                        </h6>
+                                        <Link to="/" className="class-btn">
+                                          Đăng ký ngay
+                                        </Link>
+                                      </Card.Body>
+                                    </Card>
+                                  </Link>
+                                </Col>
+                              </React.Fragment>
+                            </Container>
+                          );
+                        }
+                      }
+                    })}
+                  </Slider>
+                </Row>
+              </Container>
+            </section>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }

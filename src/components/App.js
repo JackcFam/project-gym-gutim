@@ -26,28 +26,36 @@ function App() {
           <Route path="/pricing">
             <Pricing />
           </Route>
-          <Route path="/contact">
+
+          <Route path="/contact" >
             <Contact />
           </Route>
-          <Route path="/classes">
+
+          <Route path="/classes" exact>
             <Classes />
           </Route>
+
+          <Route path="/classes/:slug" exact>
+            <ClassContent />
+          </Route>
+
           <Route path="/about">
             <About />
           </Route>
+
           <Route path="/blog">
             <Blog />
           </Route>
-          <Route path="/blog-content">
+
+          <Route path="/blog-content" >
             <BlogContent />
           </Route>
+
           <Route path="/gallery">
             <Gallery />
           </Route>
-          <Route path="/class-content">
-            <ClassContent />
-          </Route>
-          <Route path="/">
+
+          <Route path="/" exact>
             <Home />
           </Route>
         </Switch>
