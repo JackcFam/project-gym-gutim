@@ -14,14 +14,15 @@ import Pricing from './Gallery/Pricing.js';
 import Gallery from './Gallery/Gallery.js';
 import Contact from './Contact/Contact.js';
 import BlogContent from './Blog/BlogContent.js';
+import ClassContent from './Classes/ClassContent/ClassContent';
 
 
 function App() {
   return (
     <>
       <Router>
-      <Menu></Menu>
-      <Switch>
+        <Menu></Menu>
+        <Switch>
           <Route path="/pricing">
             <Pricing />
           </Route>
@@ -43,14 +44,16 @@ function App() {
           <Route path="/gallery">
             <Gallery />
           </Route>
+          <Route path="/class-content">
+            <ClassContent />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
-      </Switch>
-      <Footer></Footer>
+        </Switch>
+        <Footer></Footer>
       </Router>
-
-      </>
+    </>
   );
 }
 

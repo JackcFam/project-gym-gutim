@@ -2,7 +2,7 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 
 // BlogContent.propTypes = {
-  
+
 // };
 
 function BlogContent(props) {
@@ -36,7 +36,8 @@ function BlogContent(props) {
                 Explain to them how a website redesign enhances SEO strategies across the board. A
                 redesign is essential and should be part of your client’s budget. There are a couple of
                 risks to point out.</p>
-            </div>
+                </div>
+                
             <div className="bd-pic">
               <div className="row">
                 <div className="col-lg-6">
