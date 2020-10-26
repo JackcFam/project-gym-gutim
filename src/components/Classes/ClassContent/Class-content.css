@@ -278,12 +278,16 @@
 	padding-top: 30px;
 }
 
-.classes__pagination.blog__pagination {
+.blog__pagination {
 	text-align: left;
 	padding-top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.classes__pagination a {
+.blog__pagination a {
+	margin-top: 100px;
 	display: inline-block;
 	font-size: 16px;
 	color: #9B9EA3;
@@ -313,9 +317,9 @@
 	top: 3px;
 }
 
-.classes__pagination a:hover {
-	background: #5768AD;
-	border-color: #5768AD;
+.blog__pagination a:hover,.blog__pagination a:focus {
+	background:  #f67831;
+	border-color: #f67831;
 	color: #ffffff;
 }
 
@@ -770,6 +774,8 @@
 
 .blog__item__pic img {
 	min-width: 100%;
+	height: 260px;
+
 }
 
 .blog__item__text ul {
@@ -898,7 +904,7 @@
 }
 
 .blog__sidebar__categories ul li a:hover {
-	color: #5768AD;
+	color: #f15d44!important;
 }
 
 .blog__sidebar__recent {
@@ -923,7 +929,10 @@
 	float: left;
 	margin-right: 20px;
 }
-
+.blog__recent__item__pic img{
+	width: 70px;
+	height: 70px;
+}
 .blog__recent__item__text {
 	overflow: hidden;
 }
@@ -934,7 +943,9 @@
 	line-height: 20px;
 	margin-bottom: 5px;
 }
-
+.blog__recent__item__text h6:hover {
+	color: #f67831
+}
 .blog__recent__item__text span {
 	font-size: 12px;
 	color: #9B9EA3;
@@ -1012,7 +1023,7 @@
 	color: #ffffff;
 	display: inline-block;
 	padding: 5px 30px 4px 20px;
-	background: #5768AD;
+	background: #f67831;
 	position: absolute;
 	left: 0;
 	top: 10px;

@@ -5,6 +5,7 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import Slider from "react-slick";
 import "./Class-content.css";
+import BackToTop from "../../BackToTop";
 function ClassContent(props) {
   let dem = 1;
   const settings = {
@@ -349,7 +350,8 @@ function ClassContent(props) {
             </section>
           </Col>
         </Row>
-      </Container>
+          </Container>
+          <BackToTop></BackToTop>
     </>
   );
 }

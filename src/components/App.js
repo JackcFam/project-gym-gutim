@@ -43,11 +43,11 @@ function App() {
             <About />
           </Route>
 
-          <Route path="/blog">
+          <Route path="/blog" exact>
             <Blog />
           </Route>
 
-          <Route path="/blog-content" >
+          <Route path="/blog/:slug" exact>
             <BlogContent />
           </Route>
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 function AddClass(props) {
   const [classes, setClasses] = useState([]);
   useEffect(() => {
@@ -46,9 +46,9 @@ function AddClass(props) {
                     Nơi bạn có thể thư giản và tập luyện trong một môi trường
                     đầy đủ tiện nghi...
                   </p>
-                  <a className="join-now" href="/">
+                  <Link className="join-now" to={"/classes/" +value.slug}>
                     Join Now
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="si-text">

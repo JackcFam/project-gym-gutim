@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Card, Row, Col } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 function TopNews(props) {
   const [topnew, setTopnew] = useState([]);
@@ -86,7 +87,7 @@ function TopNews(props) {
           </div>
         </div>
       </section>
-      
+
       <section className="container">
         <div className="row">
           <div className="col">
@@ -101,26 +102,34 @@ function TopNews(props) {
                 </Row>
 
                 <Slider {...settings} style={{ width: "100%" }}>
-                  {topnew.map((item) => (
-                    <React.Fragment key={item.id}>
-                      <Col>
-                        <Container>
-                          <Card className="single-blog-item">
-                            <Card.Img src={item.anh} alt="true" />
-                            <Card.Body className="blog-widget">
-                              <div className="bw-date">February 17, 2019</div>
-                              <a href="/blog" className="tag">
-                                #Gym
-                              </a>
-                            </Card.Body>
-                            <h4>
-                              <a href="/blog">{item.tieuDe}</a>
-                            </h4>
-                          </Card>
-                        </Container>
-                      </Col>
-                    </React.Fragment>
-                  ))}
+                  {topnew.map((item) => {
+                    if (item.id <= 5) {
+                      return (
+                        <Link to={"/blog/" + item.slug}>
+                          <React.Fragment key={item.id}>
+                            <Col>
+                              <Container>
+                                <Card className="single-blog-item">
+                                  <Card.Img src={item.anh} alt="true" />
+                                  <Card.Body className="blog-widget">
+                                    <div className="bw-date">
+                                      February 17, 2019
+                                    </div>
+                                    <a href="/blog" className="tag">
+                                      #Gym
+                                    </a>
+                                  </Card.Body>
+                                  <h4>
+                                    <a href="/blog">{item.tieuDe}</a>
+                                  </h4>
+                                </Card>
+                              </Container>
+                            </Col>
+                          </React.Fragment>
+                        </Link>
+                      );
+                    }
+                  })}
                 </Slider>
               </Container>
             </section>
