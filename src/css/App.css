@@ -2278,3 +2278,11 @@ ul, ol {
 .garllery-img{
 	margin-bottom: 50px;
 }
+.errors {
+	color: #f67831;
+	background-color: black;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
