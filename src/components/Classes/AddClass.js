@@ -1,16 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import queryString from "query-string";
 function AddClass(props) {
   const [classes, setClasses] = useState([]);
+  const [filters, setFilters] = useState({
+    theLoai_like: ""
+  });
   useEffect(() => {
     async function getClass() {
-      const request = await fetch("https://api-webdata.herokuapp.com/classes");
+      const pramsquery = queryString.stringify(filters);
+      const request = await fetch("https://api-webdata.herokuapp.com/classes?" +pramsquery);
       const classes = await request.json();
       setClasses(classes);
     }
     getClass();
-  }, []);
-
+  }, [filters]);
+  function handleChangeClass(newClass) {
+    setFilters({
+      ...filters,
+      theLoai_like: newClass,
+    })
+  }
   return (
     <section className="classes-section classes-page spad">
       <div className="container">
@@ -18,6 +28,16 @@ function AddClass(props) {
           <div className="col-lg-12">
             <div className="section-title">
               <h2>lớp học của chúng tôi</h2>
+            </div>
+            <div className="nav-controls">
+              <ul>
+                <li onClick={() => handleChangeClass("")}>All Class</li>
+                <li onClick={() => handleChangeClass("Gym")}>Gym</li>
+                <li onClick={() => handleChangeClass("Crossfit")}>Crossfit</li>
+                <li onClick={() => handleChangeClass("Cardio")}>Cardio</li>
+                <li onClick={() => handleChangeClass("Body")}>Body</li>
+                <li onClick={() => handleChangeClass("Yoga")}>Yoga</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -46,7 +66,7 @@ function AddClass(props) {
                     Nơi bạn có thể thư giản và tập luyện trong một môi trường
                     đầy đủ tiện nghi...
                   </p>
-                  <Link className="join-now" to={"/classes/" +value.slug}>
+                  <Link className="join-now" to={"/classes/" + value.slug}>
                     Join Now
                   </Link>
                 </div>

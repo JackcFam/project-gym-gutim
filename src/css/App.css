@@ -309,7 +309,7 @@ ul, ol {
 	font-weight: 600;
 }
 .hero-text h1 {
-	font-size: 72px;
+	font-size: 50px;
 	color: #ffffff;
 	font-weight: 600;
 	margin-top: 11px;
@@ -1077,6 +1077,36 @@ ul, ol {
 .classes-timetable {
 	padding-top: 0;
 }
+.classes-section .nav-controls {
+	text-align: center;
+	margin-bottom: 42px;
+}
+.classes-section .nav-controls ul li {
+	list-style: none;
+	font-size: 16px;
+	color: #111111;
+	font-weight: 600;
+	display: inline-block;
+	/* margin-right: 48px; */
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+.classes-section .nav-controls ul {
+	display: flex;
+	justify-content: space-around;
+}
+.classes-section .nav-controls ul li:hover {
+	color: #f15d44;
+}
+.classes-section .nav-controls ul li:focus {
+	color: #f15d44;
+}
+.classes-section .nav-controls ul button:last-child {
+	margin-right: 0;
+}
 .classes-timetable .nav-controls {
 	text-align: center;
 	margin-bottom: 42px;
@@ -1315,8 +1345,8 @@ ul, ol {
 .single-blog-item h4 a {
 	color: #111111;
 	font-weight: 600;
-	line-height: 30px;
-	font-size: 23px;
+	line-height: 28px;
+	font-size: 17px;
 	display: block;
     text-align: justify;
     padding: 10px 10px 0 10px;
@@ -2244,4 +2274,7 @@ ul, ol {
 	justify-content: center;
 	align-items: center;
 	margin-top: 50px;
+}
+.garllery-img{
+	margin-bottom: 50px;
 }

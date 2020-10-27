@@ -31,7 +31,7 @@ function Pricing(props) {
       <div className="row">
         <div className="col-lg-12">
           <div className="section-title">
-            <h2>MEMBERSHIP PLANS</h2>
+            <h2>Dịch vụ thẻ tập</h2>
           </div>
         </div>
       </div>

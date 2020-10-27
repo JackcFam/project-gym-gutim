@@ -7,8 +7,9 @@ function Posts(props) {
                 props.posts.map((post) => {
                     return (
                       <div className="col-lg-6 col-sm-6">
-                        <div className="blog__item">
-                          <div className="blog__item__pic">
+                        <Link to={"/blog/" + post.slug} className="blog__item">
+                          <div className="classes__item__pic">
+                            <span>{post.danhMuc}</span>
                             <img src={post.anh} alt="true" />
                           </div>
                           <div className="blog__item__text">
@@ -21,17 +22,20 @@ function Posts(props) {
                               </li>
                             </ul>
                             <h5>
-                                        <a href="#">{post.tieuDe}</a>
+                              <a href="#">{post.tieuDe}</a>
                             </h5>
                             <p>
                               Sed quia non numquam modi tempora indunt ut labore
                               et dolore magnam aliquam quaerat{" "}
                             </p>
-                            <Link to={"/blog/" + post.slug} className="blog_read_more">
+                            <Link
+                              to={"/blog/" + post.slug}
+                              className="blog_read_more"
+                            >
                               READ MORE <span className="arrow_right" />
                             </Link>
                           </div>
-                        </div>
+                        </Link>
                       </div>
                     );
                 })

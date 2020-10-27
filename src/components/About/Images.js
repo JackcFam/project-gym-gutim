@@ -39,7 +39,7 @@ function Images(props) {
 
 
     return (
-        <div className="container">
+        <div className="container garllery-img">
             <div className="row">
             <div className="col-lg-12">
             <div className="section-title">

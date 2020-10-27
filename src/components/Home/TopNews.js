@@ -116,7 +116,7 @@ function TopNews(props) {
                                       February 17, 2019
                                     </div>
                                     <a href="/blog" className="tag">
-                                      #Gym
+                                      #{item.tag}
                                     </a>
                                   </Card.Body>
                                   <h4>

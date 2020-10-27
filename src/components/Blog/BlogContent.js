@@ -1,11 +1,73 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../Classes/ClassContent/Class-content.css";
-
+import { Link } from "react-router-dom";
+import { Container, Card, Row, Col } from "react-bootstrap";
+import Slider from "react-slick";
+import BackToTop from "../BackToTop";
 function BlogContent(props) {
+  let dem = 1;
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+          autoplay: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          dots: true,
+        },
+      },
+    ],
+  };
   const prams = useParams();
   const { slug } = prams;
   const [baivietchitiet, setBaivietchitiet] = useState([]);
+  const [baivietchitiet2, setBaivietchitiet2] = useState([]);
   useEffect(() => {
     async function getBaichitiet() {
       const response = await fetch(
@@ -15,6 +77,16 @@ function BlogContent(props) {
       setBaivietchitiet(baichitiet[0]);
     }
     getBaichitiet();
+  }, [slug]);
+  useEffect(() => {
+    async function getBaichitiet2() {
+      const response = await fetch(
+        "https://api-webdata.herokuapp.com/topnews"
+      );
+      const baichitiet2 = await response.json();
+      setBaivietchitiet2(baichitiet2);
+    }
+    getBaichitiet2();
   }, []);
 
   return (
@@ -27,7 +99,7 @@ function BlogContent(props) {
           <div className="row">
             <div className="col-lg-12">
               <div className="bd-hero-text">
-                <span>POST</span>
+                <span>{baivietchitiet.danhMuc}</span>
                 <h2>{baivietchitiet.tieuDe}</h2>
               </div>
             </div>
@@ -35,176 +107,166 @@ function BlogContent(props) {
         </div>
       </section>
 
-      <section className="blog-details spad">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-4 order-lg-1 order-2">
-              <div className="blog__sidebar">
-                <div className="blog__sidebar__search">
-                  <form action="#">
-                    <input type="text" placeholder="Search" />
-                    <button>
-                      <span className="fas fa-search" />
-                    </button>
-                  </form>
-                </div>
-                <div className="blog__sidebar__categories">
-                  <h4>Categories</h4>
-                  <ul>
-                    <li>
-                      <a href="#">All</a>
-                    </li>
-                    <li>
-                      <a href="#">Fuel (20)</a>
-                    </li>
-                    <li>
-                      <a href="#">Sweat (5)</a>
-                    </li>
-                    <li>
-                      <a href="#">Play (9)</a>
-                    </li>
-                    <li>
-                      <a href="#">Live (10)</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="blog__sidebar__recent">
-                  <h4>Recent News</h4>
-                  <div className="blog__recent__item">
-                    <div className="blog__recent__item__pic">
-                      <img src={baivietchitiet.anh} alt="true" />
-                    </div>
-                    <div className="blog__recent__item__text">
-                      <h6>09 Kinds Of Vegetables Protect The Liver</h6>
-                      <span>MAR 05, 2019</span>
+      <div>
+        {/* Blog Details Section Begin */}
+        <section className="blog-details spad">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-10 offset-lg-1">
+                <div className="bd-text">
+                  <div className="bd-title">
+                    <p>{baivietchitiet.trichDan}</p>
+                  </div>
+                  <div className="bd-pic">
+                    <div className="row">
+                      <div className="col-lg-12">
+                        <img src={baivietchitiet.anh} alt="true" />
+                      </div>
                     </div>
                   </div>
-                  <div className="blog__recent__item">
-                    <div className="blog__recent__item__pic">
-                      <img src="img/blog/br-2.jpg" alt="true" />
-                    </div>
-                    <div className="blog__recent__item__text">
-                      <h6>Tips You To Balance Nutrition Meal Day</h6>
-                      <span>MAR 05, 2019</span>
+                  <div className="bd-more-text">
+                    <div className="bm-item">
+                      <h4>{baivietchitiet.tieuDe}</h4>
+                      <p>{baivietchitiet.noiDung}</p>
                     </div>
                   </div>
-                  <div className="blog__recent__item">
-                    <div className="blog__recent__item__pic">
-                      <img src="img/blog/br-3.jpg" alt="true" />
-                    </div>
-                    <div className="blog__recent__item__text">
-                      <h6>4 Principles Help You Lose Weight With Vegetables</h6>
-                      <span>MAR 05, 2019</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="blog__sidebar__tags">
-                  <h4>Search By Tags</h4>
-                  <a href="#">Weight</a>
-                  <a href="#">Beauty</a>
-                  <a href="#">Yoga Ball</a>
-                  <a href="#">Fruit</a>
-                  <a href="#">Healt="true"hy Food</a>
-                  <a href="#">Lifestyle</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-8 order-lg-2 order-1">
-              <div className="blog__details">
-                <div className="blog__details__large">
-                  <img src={baivietchitiet.anh} alt="true" />
-                  <span>{baivietchitiet.danhMuc}</span>
-                </div>
-                <div className="blog__details__text">
-                  <p>{baivietchitiet.noiDung}</p>
-                </div>
-                <div className="blog__details__quote">
-                  <p>
-                    This is my second time completing a 200 hr TTC from Gutim
-                    and I loved the experiences even more
-                  </p>
-                </div>
-                <div className="blog__details__pic">
-                  <div className="row">
-                    <div className="col-lg-6 col-md-6">
-                      <img src="https://i.imgur.com/axmam1d.jpg" alt="true" />
-                    </div>
-                    <div className="col-lg-6 col-md-6">
-                      <img src="https://i.imgur.com/wWBopqw.jpg" alt="true" />
-                    </div>
-                  </div>
-                </div>
-                <div className="blog__details__desc">
-                  <h4>The Secret to improving</h4>
-                  <p>
-                    Keeping fit during your university years may not be at the
-                    front of your mind, but by maintaining a healt="true"hy
-                    body, you’re going to see some positive side effects
-                    spilling into the rest of your uni life, from having better
-                    concentration to having more energy to party.
-                  </p>
-                  <p>
-                    Seriously, skip a session and get some rest. There will be
-                    some days when taking a nap will have way more benefit to
-                    you than putting in a hard session and feeling exhausted.
-                    Exercise is supposed to energise and inspire.
-                  </p>
-                </div>
-                <div className="blog__details__tags__share">
-                  <p>
-                    <span>Tags:</span> All, Trending, Fuel, Cardio, Life Style
-                  </p>
-                  <div className="blog__details__share">
-                    <a href="www.facebook.com">
-                      <span className="social_facebook" />
-                    </a>
-                    <a href="www.facebook.com">
-                      <span className="social_instagram" />
-                    </a>
-                    <a href="www.facebook.com">
-                      <span className="social_twitter" />
-                    </a>
-                    <a href="www.facebook.com">
-                      <span className="social_linkedin" />
-                    </a>
-                  </div>
-                </div>
-                <div className="blog__details__author">
-                  <div className="blog__details__author__pic">
-                    <img src="https://i.imgur.com/dwrdrwd.png" alt="true" />
-                  </div>
-                  <div className="blog__details__author__text">
-                    <h4>Grace Carter</h4>
+                  <div className="bd-quote">
+                    <samp>"</samp>
                     <p>
-                      The face of the moon was in shadow.The spectacle before us
-                      was indeed sublime. All the their that dummy equipment and
-                      instruments are alive.
+                      “We need to stop interrupting what people are interested
+                      in and be what people are interested in.”
+                    </p>
+                    <div className="quote-author">
+                      <h5>Steven Jobs</h5>
+                      <span>CEO-DeerCreative</span>
+                    </div>
+                  </div>
+                  <div className="bd-last-para">
+                    <p>
+                      All the above assumes that a client is willing to create a
+                      website in the first place. Some clients may believe that
+                      they can forgo a website entirely. However, without a
+                      website, it is impossible for a business to grow.
                     </p>
                   </div>
-                </div>
-                <div className="row">
-                  <div className="col-lg-6 col-md-6">
-                    <a href="#" className="blog__previous__btn">
-                      <i className="fa fa-angle-left" />
-                      <h6>6 Reasons to get rebounding</h6>
-                      <span>Previous Post</span>
-                    </a>
+                  <div className="tag-share">
+                    <div className="tags">
+                      <a href="#">Camera</a>
+                      <a href="#">Photography</a>
+                      <a href="#">Tips</a>
+                    </div>
+                    <div className="social-share">
+                      <span>Share:</span>
+                      <a href="#">
+                        <i className="fa fa-facebook" />
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-twitter" />
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-google-plus" />
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-instagram" />
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-youtube-play" />
+                      </a>
+                    </div>
                   </div>
-                  <div className="col-lg-6 col-md-6">
-                    <a href="#" className="blog__next__btn">
-                      <i className="fa fa-angle-right" />
-                      <h6>Tips make cooking simple</h6>
-                      <span>Previous Post</span>
-                    </a>
+                  <div className="blog-author">
+                    <div className="row">
+                      <div className="col-lg-3">
+                        <div className="ba-pic">
+                          <img
+                            src="https://i.imgur.com/dr66xjI.jpg"
+                            alt="true"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-9">
+                        <div className="ba-text">
+                          <h5>Shane Lynch</h5>
+                          <p>
+                            Aliquip ex ea commodo consequat. Duis aute irure
+                            dolor in reprehenderit in voluptate velit esse
+                            cillum bore et dolore magna aliqua.{" "}
+                          </p>
+                          <div className="bt-social">
+                            <a href="#">
+                              <i className="fa fa-facebook" />
+                            </a>
+                            <a href="#">
+                              <i className="fa fa-twitter" />
+                            </a>
+                            <a href="#">
+                              <i className="fa fa-google-plus" />
+                            </a>
+                            <a href="#">
+                              <i className="fa fa-instagram" />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      {/* Blog Details Section End */}
-      {/* Leave Comment Begin */}
+        </section>
+        {/* Blog Details Section End */}
+        {/* Latest Blog Section Begin */}
+        <section className="latest-blog-section recommend spad">
+          <Container>
+            <Row>
+              <div className="col-lg-12">
+                <h3>Recommended</h3>
+              </div>
+            </Row>
+            <Row>
+              <Slider {...settings} style={{ width: "100%" }}>
+                {baivietchitiet2.map((value) => {
+                  if (value.id !== baivietchitiet.id) {
+                    if (dem<= 8) {
+                      dem++;
+                      return (
+                        <Container>
+                          <React.Fragment key={value.id}>
+                            <Link to={"/blog/" + value.slug}>
+                              <Col>
+                                <Container>
+                                  <Card className="single-blog-item">
+                                    <Card.Img src={value.anh} alt="true" />
+                                    <Card.Body className="blog-widget">
+                                      <div className="bw-date">
+                                        February 17, 2019
+                                      </div>
+                                      <a href="/blog" className="tag">
+                                        #{value.tag}
+                                      </a>
+                                    </Card.Body>
+                                    <h4>
+                                      <a href="/blog">{value.tieuDe}</a>
+                                    </h4>
+                                  </Card>
+                                </Container>
+                              </Col>
+                            </Link>
+                          </React.Fragment>
+                        </Container>
+                      );
+                    }
+                  }
+                })}
+              </Slider>
+
+            </Row>
+          </Container>
+        </section>
+      </div>
+
+      <BackToTop></BackToTop>
     </div>
   );
 }

@@ -6,6 +6,7 @@ import ClassHome from "./ClassHome";
 import Stories from "./Stories";
 import Trainer from "./Trainer";
 import TopNews from "./TopNews";
+import BannerFooter from '../BannerFooter';
 import BackToTop from "../BackToTop";
 
 
@@ -26,6 +27,7 @@ function Home(props) {
       <Stories></Stories>
       {/* BLOG HOME */}
       <TopNews></TopNews>
+      <BannerFooter></BannerFooter>
       <BackToTop></BackToTop>
 
     </>

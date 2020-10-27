@@ -4,6 +4,8 @@ import Posts from "./Posts";
 import Pagination from "./Pagination";
 import queryString from "query-string";
 import PostsFilterForm from './PostsFilterForm';
+import BackToTop from "../BackToTop";
+import {Link} from "react-router-dom";
 function Blog(props) {
   const [blogs, setBlogs] = useState([]);
   const [caculater, setCaculater] = useState([]);
@@ -51,14 +53,30 @@ function Blog(props) {
     })
   }
 
-  function handleFilterChange(newFilter) {
-    console.log('Filter changed:', newFilter);
+
+
+  function TagFilter(newItem) {
     setFilters({
-      ...filters,
       _page: 1,
-      tieuDe_like: newFilter.searchTerm,
-    });
+      tag_like: newItem,
+    })
   }
+function Categories(newItem) {
+  setFilters({
+    // ...filters,
+    _page: 1,
+    danhMuc_like: newItem,
+  });
+}
+
+function handleFilterChange(newFilter) {
+  console.log("Filter changed:", newFilter);
+  setFilters({
+    ...filters,
+    _page: 1,
+    tieuDe_like: newFilter.searchTerm,
+  });
+}
 
   return (
     <>
@@ -72,108 +90,97 @@ function Blog(props) {
             {/* thanh bar */}
             <div className="col-lg-4 order-lg-1 order-2">
               <div className="blog__sidebar">
-                <PostsFilterForm onSubmit={handleFilterChange}></PostsFilterForm>
+                <PostsFilterForm
+                  onSubmit={handleFilterChange}
+                ></PostsFilterForm>
                 <div className="blog__sidebar__categories">
                   <h4>Categories</h4>
                   <ul>
                     <li>
-                      <a href="#">All</a>
+                      <a href="#" onClick={() => Categories("Fuel")}>
+                        Fuel (4)
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Fuel (20)</a>
+                      <a href="#" onClick={() => Categories("Sweat")}>
+                        Sweat (2)
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Sweat (5)</a>
+                      <a href="#" onClick={() => Categories("Play")}>
+                        Play (3)
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Play (9)</a>
-                    </li>
-                    <li>
-                      <a href="#">Live (10)</a>
+                      <a href="#" onClick={() => Categories("Live")}>
+                        Live (6)
+                      </a>
                     </li>
                   </ul>
                 </div>
                 <div className="blog__sidebar__recent">
-                  <h4>Recent News</h4>
-                  <div className="blog__recent__item">
+                  <h4>Bài Viết Mới</h4>
+                  <Link
+                    to={"/blog/nhung-the-vo-tu-ve-danh-cho-con-gai-phong-than"}
+                    className="blog__recent__item"
+                    style={{ display: "inline-block" }}
+                  >
                     <div className="blog__recent__item__pic">
-                      <img src="img/blog/br-1.jpg" alt />
+                      <img src="https://i.imgur.com/yCaLaTZ.jpg" alt="true" />
                     </div>
                     <div className="blog__recent__item__text">
-                      <h6>09 Kinds Of Vegetables Protect The Liver</h6>
-                      <span>MAR 05, 2019</span>
+                      <h6>Những thế võ tự vệ dành cho con gái phòng thân</h6>
+                      <span>April 10, 2020</span>
                     </div>
-                  </div>
-                  <div className="blog__recent__item">
+                  </Link>
+                  <Link
+                    to={"/blog/bi-quyet-thanh-cong-thoat-gay-nhanh-chong"}
+                    className="blog__recent__item"
+                    style={{ display: "inline-block" }}
+                  >
                     <div className="blog__recent__item__pic">
-                      <img src="img/blog/br-2.jpg" alt />
+                      <img src="https://i.imgur.com/i6Ps0xo.jpg" alt="true" />
                     </div>
                     <div className="blog__recent__item__text">
-                      <h6>Tips You To Balance Nutrition Meal Day</h6>
-                      <span>MAR 05, 2019</span>
+                      <h6>Bí quyết thành công thoát gầy nhanh chóng</h6>
+                      <span>November 05, 2020</span>
                     </div>
-                  </div>
-                  <div className="blog__recent__item">
+                    
+                  </Link>
+                  <Link
+                    to={"/blog/an-gi-de-co-bung-6-mui"}
+                    className="blog__recent__item"
+                    style={{ display: "inline-block" }}
+                  >
                     <div className="blog__recent__item__pic">
-                      <img src="img/blog/br-3.jpg" alt />
+                      <img src="https://i.imgur.com/DLh1jSN.jpg" alt="true" />
                     </div>
                     <div className="blog__recent__item__text">
-                      <h6>4 Principles Help You Lose Weight With Vegetables</h6>
-                      <span>MAR 05, 2019</span>
+                      <h6>Ăn gì để có cơ bụng 6 múi</h6>
+                      <span>MAR 05, 2020</span>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="blog__sidebar__tags">
                   <h4>Search By Tags</h4>
-                  <a href="#">Weight</a>
-                  <a href="#">Beauty</a>
-                  <a href="#">Yoga Ball</a>
-                  <a href="#">Fruit</a>
-                  <a href="#">Healthy Food</a>
-                  <a href="#">Lifestyle</a>
-                </div>
-                <div className="blog__sidebar__comment">
-                  <h4>Comment</h4>
-                  <div className="classes__sidebar__comment">
-                    <div className="classes__sidebar__comment__pic">
-                      <img src="img/classes-details/comment-1.png" alt />
-                      <div className="classes__sidebar__comment__rating">
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star-half-o" />
-                      </div>
-                    </div>
-                    <div className="classes__sidebar__comment__text">
-                      <span>04 Mar 2018</span>
-                      <h6>Brandon Kelley</h6>
-                      <p>
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor
-                        sit amet, consectetur, adipisci velit,
-                      </p>
-                    </div>
-                  </div>
-                  <div className="classes__sidebar__comment">
-                    <div className="classes__sidebar__comment__pic">
-                      <img src="img/classes-details/comment-2.png" alt />
-                      <div className="classes__sidebar__comment__rating">
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star" />
-                        <i className="fa fa-star-half-o" />
-                      </div>
-                    </div>
-                    <div className="classes__sidebar__comment__text">
-                      <span>04 Mar 2018</span>
-                      <h6>Christina Kelley</h6>
-                      <p>
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor
-                        sit amet,
-                      </p>
-                    </div>
-                  </div>
+                  <a href="#" onClick={() => TagFilter("Weight")}>
+                    Weight
+                  </a>
+                  <a href="#" onClick={() => TagFilter("Beauty")}>
+                    Beauty
+                  </a>
+                  <a href="#" onClick={() => TagFilter("YogaBall")}>
+                    Yoga Ball
+                  </a>
+                  <a href="#" onClick={() => TagFilter("Fruit")}>
+                    Fruit
+                  </a>
+                  <a href="#" onClick={() => TagFilter("HealthyFood")}>
+                    Healthy Food
+                  </a>
+                  <a href="#" onClick={() => TagFilter("Lifestyle")}>
+                    Lifestyle
+                  </a>
                 </div>
               </div>
             </div>
@@ -183,15 +190,18 @@ function Blog(props) {
               <div className="row">
                 <Posts posts={blogs}></Posts>
 
-
-                <Pagination totalRows={caculater} pagination={filters} onPageChange={handleClick}></Pagination>
-
+                <Pagination
+                  totalRows={caculater}
+                  pagination={filters}
+                  onPageChange={handleClick}
+                ></Pagination>
               </div>
             </div>
           </div>
         </div>
       </section>
       {/* Blog Section End */}
+      <BackToTop></BackToTop>
     </>
   );
 }

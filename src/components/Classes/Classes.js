@@ -2,6 +2,7 @@ import React from "react";
 import AddClass from "./AddClass";
 import LichTap from './LichTap';
 import BackToTop from "../BackToTop";
+import BannerFooter from '../BannerFooter';
 function Classes(props) {
   return (
     <div>
@@ -27,6 +28,7 @@ function Classes(props) {
       </section>
       <AddClass></AddClass>
       <LichTap></LichTap>
+      <BannerFooter></BannerFooter>
       <BackToTop></BackToTop>
     </div>
   );

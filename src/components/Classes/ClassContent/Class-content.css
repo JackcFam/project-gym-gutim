@@ -198,7 +198,7 @@
 	color: #ffffff;
 	display: inline-block;
 	padding: 7px 16px 4px;
-	background: #5768AD;
+	background: #f15d44!important;
 	position: absolute;
 	left: 0;
 	top: 10px;
@@ -322,7 +322,10 @@
 	border-color: #f67831;
 	color: #ffffff;
 }
-
+.classes__item__pic img {
+	height: 260px;
+	cursor: pointer;
+}
 /*---------------------
   Classes Details
 -----------------------*/
@@ -812,7 +815,7 @@
 }
 
 .blog__item__text h5 a:hover {
-	color: #5768AD;
+	color: #f67831;
 }
 
 .blog__item__text p {
@@ -829,7 +832,10 @@
 	border: 1px solid rgba(155, 158, 163, 0.3);
 	display: inline-block;
 }
+.blog__item__text .blog_read_more:hover {
 
+	color: #f67831
+}
 .blog__item__text .blog_read_more span {
 	font-size: 16px;
 	position: relative;
@@ -906,7 +912,9 @@
 .blog__sidebar__categories ul li a:hover {
 	color: #f15d44!important;
 }
-
+.blog__sidebar__categories ul li a:focus {
+	color: #f15d44!important;
+}
 .blog__sidebar__recent {
 	margin-bottom: 50px;
 }
@@ -970,7 +978,14 @@
 	margin-right: 6px;
 	margin-bottom: 10px;
 }
-
+.blog__sidebar__tags a:focus{
+	background: #f67831;
+	color: white;
+}
+.blog__sidebar__tags a:hover{
+	background: #f67831;
+	color: white;
+}
 .blog__sidebar__comment h4 {
 	color: #1C1C1C;
 	margin-bottom: 25px;
