@@ -60,7 +60,9 @@ function Blog(props) {
       ...filters,
       tag_like: newItem,
     });
-
+    setPagination({
+      tag_like: newItem,
+    });
   }
   function Categories(newItem) {
     setFilters({
