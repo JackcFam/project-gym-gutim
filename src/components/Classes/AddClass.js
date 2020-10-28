@@ -31,12 +31,12 @@ function AddClass(props) {
             </div>
             <div className="nav-controls">
               <ul>
-                <li onClick={() => handleChangeClass("")}>All Class</li>
-                <li onClick={() => handleChangeClass("Gym")}>Gym</li>
-                <li onClick={() => handleChangeClass("Crossfit")}>Crossfit</li>
-                <li onClick={() => handleChangeClass("Cardio")}>Cardio</li>
-                <li onClick={() => handleChangeClass("Body")}>Body</li>
-                <li onClick={() => handleChangeClass("Yoga")}>Yoga</li>
+                <button onClick={() => handleChangeClass("")}>All Class</button>
+                <button onClick={() => handleChangeClass("Gym")}>Gym</button>
+                <button onClick={() => handleChangeClass("Crossfit")}>Crossfit</button>
+                <button onClick={() => handleChangeClass("Cardio")}>Cardio</button>
+                <button onClick={() => handleChangeClass("Body")}>Body</button>
+                <button onClick={() => handleChangeClass("Yoga")}>Yoga</button>
               </ul>
             </div>
           </div>

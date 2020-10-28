@@ -1101,9 +1101,7 @@ ul, ol {
 .classes-section .nav-controls ul li:hover {
 	color: #f15d44;
 }
-.classes-section .nav-controls ul li:focus {
-	color: #f15d44;
-}
+
 .classes-section .nav-controls ul button:last-child {
 	margin-right: 0;
 }
@@ -1111,7 +1109,8 @@ ul, ol {
 	text-align: center;
 	margin-bottom: 42px;
 }
-.classes-timetable .nav-controls ul button {
+.classes-timetable .nav-controls ul button,
+.classes-section .nav-controls ul button {
 	list-style: none;
 	font-size: 16px;
 	color: #111111;
@@ -1222,6 +1221,10 @@ ul, ol {
 .schedule-table table tbody tr td .trainer-name {
 	font-size: 14px;
 	color: #6b6b6b;
+}
+
+.classes-section .nav-controls ul button:focus {
+	color: #f15d44!important
 }
 /*---------------------
   About Counter
