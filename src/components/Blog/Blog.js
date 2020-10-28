@@ -3,15 +3,18 @@ import BannerBlog from "./BannerBlog";
 import Posts from "./Posts";
 import Pagination from "./Pagination";
 import queryString from "query-string";
-import PostsFilterForm from './PostsFilterForm';
+import PostsFilterForm from "./PostsFilterForm";
 import BackToTop from "../BackToTop";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 function Blog(props) {
   const [blogs, setBlogs] = useState([]);
   const [caculater, setCaculater] = useState([]);
+  const [pagination, setPagination] = useState({
+    q: "",
+  });
   const [filters, setFilters] = useState({
     _page: 1,
-    _limit: 6,
+    _limit: 4,
   });
   useEffect(() => {
     async function getBlogs() {
@@ -27,12 +30,13 @@ function Blog(props) {
       }
     }
     getBlogs();
-  }, [filters]);
+  }, [filters,pagination]);
   useEffect(() => {
     async function getCaculater() {
       try {
+        const pramsquery2 = queryString.stringify(pagination);
         const responseUrl =
-          "https://api-webdata.herokuapp.com/topnews";
+          "https://api-webdata.herokuapp.com/topnews?" +pramsquery2;
         const response = await fetch(responseUrl);
         const responseJSON = await response.json();
         setCaculater(responseJSON);
@@ -41,42 +45,45 @@ function Blog(props) {
       }
     }
     getCaculater();
-  }, []);
-
-
+  }, [pagination]);
 
   function handleClick(newPage) {
-    console.log('New page:', newPage);
+    console.log("New page:", newPage);
     setFilters({
       ...filters,
       _page: newPage,
-    })
+    });
   }
-
-
 
   function TagFilter(newItem) {
     setFilters({
-      _page: 1,
+      ...filters,
       tag_like: newItem,
-    })
-  }
-function Categories(newItem) {
-  setFilters({
-    // ...filters,
-    _page: 1,
-    danhMuc_like: newItem,
-  });
-}
+    });
 
-function handleFilterChange(newFilter) {
-  console.log("Filter changed:", newFilter);
-  setFilters({
-    ...filters,
-    _page: 1,
-    tieuDe_like: newFilter.searchTerm,
-  });
-}
+  }
+  function Categories(newItem) {
+    setFilters({
+      ...filters,
+      danhMuc_like: newItem,
+    });
+    setPagination({
+      danhMuc_like: newItem,
+    });
+  }
+
+  function handleFilterChange(newFilter) {
+    setFilters({
+      ...filters,
+      q: newFilter.searchTerm,
+    });
+    setPagination({
+      ...pagination,
+      q: newFilter.searchTerm,
+    });
+
+
+  }
 
   return (
     <>
@@ -96,6 +103,11 @@ function handleFilterChange(newFilter) {
                 <div className="blog__sidebar__categories">
                   <h4>Categories</h4>
                   <ul>
+                    <li>
+                      <a href="#" onClick={() => Categories("")}>
+                        All
+                      </a>
+                    </li>
                     <li>
                       <a href="#" onClick={() => Categories("Fuel")}>
                         Fuel (4)
@@ -145,7 +157,6 @@ function handleFilterChange(newFilter) {
                       <h6>Bí quyết thành công thoát gầy nhanh chóng</h6>
                       <span>November 05, 2020</span>
                     </div>
-                    
                   </Link>
                   <Link
                     to={"/blog/an-gi-de-co-bung-6-mui"}

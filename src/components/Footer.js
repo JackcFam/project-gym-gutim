@@ -1,6 +1,7 @@
 import React from 'react';
 import {useForm} from "react-hook-form";
 function Footer(props) {
+  
   const { handleSubmit, register, errors } = useForm();
   const onSubmit = values => console.log(values);
 
