@@ -55,15 +55,6 @@ function Blog(props) {
     });
   }
 
-  function TagFilter(newItem) {
-    setFilters({
-      ...filters,
-      tag_like: newItem,
-    });
-    setPagination({
-      tag_like: newItem,
-    });
-  }
   function Categories(newItem) {
     setFilters({
       ...filters,
@@ -77,11 +68,11 @@ function Blog(props) {
   function handleFilterChange(newFilter) {
     setFilters({
       ...filters,
-      q: newFilter.searchTerm,
+      tieuDe_like: newFilter.searchTerm,
     });
     setPagination({
       ...pagination,
-      q: newFilter.searchTerm,
+      tieuDe_like: newFilter.searchTerm,
     });
 
 
@@ -173,27 +164,6 @@ function Blog(props) {
                       <span>MAR 05, 2020</span>
                     </div>
                   </Link>
-                </div>
-                <div className="blog__sidebar__tags">
-                  <h4>Search By Tags</h4>
-                  <a href="#" onClick={() => TagFilter("Weight")}>
-                    Weight
-                  </a>
-                  <a href="#" onClick={() => TagFilter("Beauty")}>
-                    Beauty
-                  </a>
-                  <a href="#" onClick={() => TagFilter("YogaBall")}>
-                    Yoga Ball
-                  </a>
-                  <a href="#" onClick={() => TagFilter("Fruit")}>
-                    Fruit
-                  </a>
-                  <a href="#" onClick={() => TagFilter("HealthyFood")}>
-                    Healthy Food
-                  </a>
-                  <a href="#" onClick={() => TagFilter("Lifestyle")}>
-                    Lifestyle
-                  </a>
                 </div>
               </div>
             </div>

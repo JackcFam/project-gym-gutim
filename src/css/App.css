@@ -2289,3 +2289,23 @@ ul, ol {
 	padding: 5px;
 	border-radius: 5px;
 }
+@keyframes zoominout {
+    0% {
+        transform: scale(0);
+	}
+	25% {
+        transform: scale(0.25,0.25);
+    }
+    50% {
+        transform: scale(0.5,0.5);
+	}
+	75% {
+        transform: scale(0.75,0.75);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.zooms {
+	animation: zoominout 0.35s forwards;
+}

@@ -44,7 +44,7 @@ function AddClass(props) {
 
         <div className="row">
           {classes.map((value) => (
-            <div className="col-lg-4 col-md-6" key={value.id}>
+            <div className="col-lg-4 col-md-6 zooms" key={value.id}>
               <div
                 className="single-class-item set-bg"
                 style={{
