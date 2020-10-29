@@ -2309,3 +2309,14 @@ ul, ol {
 .zooms {
 	animation: zoominout 0.35s forwards;
 }
+.ts-item {
+	animation: zoominout 0.35s forwards;
+}
+.modal-selecter {
+	position: fixed;
+	top: 35%;
+	padding-left: 1rem;
+}
+.modal-content-alert {
+	padding: 20px;
+}
