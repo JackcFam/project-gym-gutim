@@ -2492,7 +2492,7 @@ ol {
   position: absolute;
   top: 15%;
 }
-#name,
+#hoten,
 #phone,
 #button-submit-sign-up {
   padding: 5px;
@@ -2518,4 +2518,7 @@ ol {
   padding-left: 16px;
   margin-bottom: 5px;
   font-weight: bold;
+}
+.zooms1{
+  margin-bottom: 30px;
 }

@@ -8,7 +8,6 @@ function ModalSingUp(props) {
     const onSubmit = (data, e) => {
         e.target.reset();
         alert("Đăng ký thành công");
-
   };
   return (
       <Modal
@@ -41,7 +40,7 @@ function ModalSingUp(props) {
           >
             <input
               type="text"
-              id="name"
+              id="hoten"
               placeholder="Họ và Tên"
               name="hoten"
               ref={register({

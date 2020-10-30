@@ -6,7 +6,7 @@ function Posts(props) {
             {
                 props.posts.map((post) => {
                     return (
-                      <div className="col-lg-6 col-sm-6 zooms">
+                      <div className="col-lg-6 col-sm-6 zooms zooms1">
                         <Link to={"/blog/" + post.slug} className="blog__item">
                           <div className="classes__item__pic">
                             <span>{post.danhMuc}</span>

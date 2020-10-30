@@ -1,0 +1,2099 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nanette MacDearmaid",
+      "email": "nmacdearmaid0@ucla.edu",
+      "password": "nmacdearmaid0",
+      "phone": "185-129-2326",
+      "birthday": "11/18/1995",
+      "gender": "Female",
+      "avatar": "https://robohash.org/faceresintblanditiis.bmp?size=150x150&set=set1"
+    },
+    {
+      "id": 2,
+      "name": "Chancey Di Maria",
+      "email": "cdi1@simplemachines.org",
+      "password": "simplemachines",
+      "phone": "462-441-6079",
+      "birthday": "4/4/2008",
+      "bio": "In sagittis dui vel",
+      "gender": "Male",
+      "avatar": "https://robohash.org/modiinventoremolestias.png?size=150x150&set=set1"
+    },
+    {
+      "id": 3,
+      "name": "Catherine Waberer",
+      "email": "cwaberer2@umn.edu",
+      "password": "cwaberer2",
+      "phone": "652-951-9313",
+      "birthday": "12/2/2002",
+      "bio": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+      "gender": "Female",
+      "avatar": "https://robohash.org/dolortemporibussoluta.png?size=150x150&set=set1"
+    },
+    {
+      "id": 4,
+      "name": "Bobbette Kenway",
+      "email": "bkenway3@wiley.com",
+      "password": "bkenway3",
+      "phone": "767-354-8928",
+      "birthday": "11/14/1995",
+      "bio": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+      "gender": "Female",
+      "avatar": "https://robohash.org/abesselaudantium.jpg?size=150x150&set=set1"
+    },
+    {
+      "id": 5,
+      "name": "Goober Banting",
+      "email": "gbanting4@prweb.com",
+      "password": "gbanting4",
+      "phone": "563-471-5104",
+      "birthday": "9/22/1992",
+      "bio": "",
+      "gender": "Male",
+      "avatar": "https://robohash.org/atqueearumquaerat.png?size=150x150&set=set1"
+    },
+    {
+      "id": 6,
+      "name": "Roana Clail",
+      "email": "rclail5@geocities.jp",
+      "password": "rclail5",
+      "phone": "952-408-0056",
+      "birthday": "5/13/1992",
+      "bio": "",
+      "gender": "Female",
+      "avatar": "https://robohash.org/voluptatelaborummodi.jpg?size=150x150&set=set1"
+    },
+    {
+      "id": 7,
+      "name": "Lindy Hubbard",
+      "email": "lhubbard6@networkadvertising.org",
+      "password": "lhubbard6",
+      "phone": "967-486-1276",
+      "birthday": "11/24/2006",
+      "bio": "",
+      "gender": "Male",
+      "avatar": "https://robohash.org/doloresnatusaut.jpg?size=150x150&set=set1"
+    },
+    {
+      "id": 8,
+      "name": "Jerad Adney",
+      "email": "jadney7@weebly.com",
+      "password": "jadney7",
+      "phone": "787-503-1575",
+      "birthday": "1/5/2009",
+      "bio": "",
+      "gender": "Male",
+      "avatar": "https://robohash.org/debitiseacumque.bmp?size=150x150&set=set1"
+    },
+    {
+      "id": 9,
+      "name": "Davina Tassaker",
+      "email": "dtassaker8@latimes.com",
+      "password": "dtassaker8",
+      "phone": "932-840-1592",
+      "birthday": "10/24/2000",
+      "bio": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+      "gender": "Female",
+      "avatar": "https://robohash.org/liberoametdolores.png?size=150x150&set=set1"
+    },
+    {
+      "id": 10,
+      "name": "Torrance Arboine",
+      "email": "tarboine9@delicious.com",
+      "password": "tarboine9",
+      "phone": "411-464-4275",
+      "birthday": "8/18/2005",
+      "bio": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+      "gender": "Male",
+      "avatar": "https://robohash.org/estipsamalias.png?size=150x150&set=set1"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "slug": "lop-yoga",
+      "theLoai": "Yoga All Body",
+      "name": "Yoga",
+      "img": "https://i.imgur.com/Gm3cQHH.jpg",
+      "teacher": "Tiểu Phương",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/w2QOwnM.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "lop-giam-can",
+      "theLoai": "Yoga Crossfit All",
+      "name": "Giảm cân",
+      "img": "https://i.imgur.com/AFkhlyf.jpg",
+      "teacher": "AL MORGAN",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/WEJjGmY.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "lop-kichfit",
+      "theLoai": "Crossfit Gym All",
+      "name": "Kichfit",
+      "img": "https://i.imgur.com/fOz8PmS.jpg",
+      "teacher": "Tiểu Phương",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/5NWfE9l.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "lop-dance",
+      "theLoai": "Crossfit Yoga All Cardio",
+      "name": "Dance",
+      "img": "https://i.imgur.com/4F5d5k0.jpg",
+      "teacher": "Tiểu Phương",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/1lcFJrg.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "lop-huan-luyen-vien-ca-nhan",
+      "theLoai": "Gym Body All Cardio",
+      "name": "HLV Cá nhân",
+      "img": "https://i.imgur.com/PrvgCk5.jpg",
+      "teacher": "ISIDI",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/g4pRcxN.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "theLoai": "Body Crossfit All Yoga",
+      "slug": "lop-giam-cang-co",
+      "name": "Giảm căng cơ",
+      "img": "https://i.imgur.com/K9v2TNE.jpg",
+      "teacher": "LINH TẠ",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/bhXeaGx.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "theLoai": "Cardio Crossfit All",
+      "slug": "lop-battle-rope",
+      "name": "Battle rope",
+      "img": "https://i.imgur.com/zP224xV.jpg",
+      "teacher": "AL MORGAN",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/NjKy5N2.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "theLoai": "Body Gym Yoga All",
+      "slug": "lop-body-building",
+      "name": "Body building",
+      "img": "https://i.imgur.com/aXU5Z2x.jpg",
+      "teacher": "Linh Tạ",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/NjKy5N2.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "theLoai": "Crossfit All",
+      "slug": "lop-vo-tu-ve",
+      "name": "Võ tự vệ",
+      "img": "https://i.imgur.com/yCaLaTZ.jpg",
+      "teacher": "Tiểu Phương",
+      "content": "Luyện tập cùng Huấn Luyện Viên thể hình sẽ tốt hơn nhiều so với việc bạn tự tập một mình, đây là một hệ thống đã được chứng minh để cải thiện cuộc sống của bạn và đảm bảo bạn đạt đến kết quả cao nhất của chương trình tập.Huấn Luyện Viên thể hình cá nhân đánh giá các chỉ số cơ thể và xác định những gì bạn cần để phục hồi thể lực và cải thiện chất lượng cuộc sống cũng như sức khỏe của bạn.Hệ thống của chúng tôi được thiết kế để phù hợp với cuộc sống bận rộn thường ngày, giúp bạn đạt được kết quả tốt nhất sau mỗi buổi tập.",
+      "title": "Huấn luyện viên sẽ Giúp bạn đạt được kết quả tốt hơn",
+      "anhChiTiet": "https://i.imgur.com/ZLDBZGH.jpg",
+      "comments": [
+        {
+          "name": "Brandon Kelley",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Very good!, thank you."
+        },
+        {
+          "name": "Admin",
+          "email": "brandonkelley@gmail.com",
+          "comment": "Hello"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "tieuDe": "4 BƯỚC THỰC HIỆN BÀI TẬP YOGA TĂNG CHIỀU CAO",
+      "trichDan": "Không quá khó khăn để có thể đạt được chiều cao đáng mơ ước 1m7 nếu bạn có chế độ dinh dưỡng hợp lí và tập luyện đúng cách mỗi ngày. Nếu kiên trì tập luyện ở tuổi dậy thì, các nhóm cơ liên quan, đốt sống sẽ giãn nở và phát triển tối đa, giúp bạn được chiều cao mong muốn",
+      "noiDung": "Đối với những người mới làm quen với việc tập luyện, tập lần lượt các động tác và lặp lại chu kỳ 3 lần (3 hiệp).Đối với người có thể trạng tốt hoặc đã tập luyện lâu năm, có thể nâng số hiệp lên làm 5 đến 7 hiệp.Lưu ý: Hít thở đều, thực hiện động tác đúng tư thế, lựa chọn cường độ tập luyện thích hợp để tránh chấn thương.",
+      "anh": "https://i.imgur.com/g4pRcxN.jpg",
+      "slug": "4-buoc-thuc-hien-bai-tap-tang-chieu-cao"
+    },
+    {
+      "id": 2,
+      "tieuDe": "CHẾ ĐỘ ĂN CHO NGƯỜI TẬP GYM - NẠP BAO NHIÊU NGŨ CỐC TẬP GYM LÀ ĐỦ?",
+      "trichDan": "Đối với những người mới vừa bắt đầu con đường tập gym “chuyên nghiệp” thì không phải ai cũng trả lời được câu hỏi “Ăn bao nhiêu là đủ?”. Và chắc chắn đó cũng là băn khoăn chung và lớn nhất của các gymers. Hãy nghe huấn luyện viên đến từ California Fitness & Yoga Center phân tích về chế độ ăn cho người tập gym và cùng nhau đi tìm đáp án nhé.",
+      "noiDung": "Chất đạm chứa trong các axit amin giúp xây dựng cơ bắp. Đối với chế độ ăn cho người tập gym, lượng protein khuyên dùng mỗi ngày là 1,1 gram/1 kg trọng lượng cơ thể đối với người bình thường. Tuy nhiên, đối với những người muốn tăng cơ bắp thì cần phải tiêu thụ gấp đôi con số này.",
+      "anh": "https://i.imgur.com/vavOVDY.jpg",
+      "slug": "che-do-an-cho-nguoi-tap-gym"
+    },
+    {
+      "id": 3,
+      "tieuDe": "SIẾT CƠ LÀ GÌ? CÁCH XẢ CƠ TRƯỚC KHI SIẾT CHUẨN 6 MÚI",
+      "trichDan": "Xả cơ (Bulking) và siết cơ (cutting) là 2 kỹ thuật được “dân lành nghề gym” vô cùng quan tâm. Nếu bạn thật sự muốn sở hữu một thân hình hoàn hảo, đặc biệt là những anh chàng muốn sở hữu thân hình 6 múi sắc nét, cuồn cuộn. Ngay sau đây California Fitness & Yoga sẽ cung cấp cho bạn toàn bộ kiến thức về Siết cơ nhé. Cùng theo dõi ngay thôi!",
+      "noiDung": "Mặc dù xả cơ cho phép bạn dung nạp lượng calo nhiều hơn mức bình thường dao động khoảng 110% - 120% và nếu bạn tiêu thụ nhiều hơn sẽ rơi vào tình trạng khó kiểm soát lượng chất béo, tăng lượng mỡ và làm chậm sự phát triển của cơ bắp. Điều này khiến cho quá trình Bulking up diễn ra chậm hơn, khó khăn hơn và có thể không đem lại bất kì hiệu quả nào.",
+      "anh": "https://i.imgur.com/bhXeaGx.jpg",
+      "slug": "tin-chi-tiet-so-3"
+    },
+    {
+      "id": 4,
+      "tieuDe": "SQUAT LÀ GÌ? CÓ BAO NHIÊU ĐỘNG TÁC SQUAT BẠN CẦN BIẾT?",
+      "trichDan": "Squat là bài tập dành cho những ai mong muốn cải thiện vòng 3 khiêm tốn của mình. Đây là hình thức tập luyện không những giúp bạn sở hữu vòng 3 gợi cảm mà còn giúp đôi chân của bạn ngày càng trở nên săn chắc. Trong bài viết sau, hãy cùng California Fitness & Yoga tìm hiểu về định nghĩa của squat và những động tác squat phổ biến. Cùng tìm hiểu nhé! ",
+      "noiDung": "Tập Squat - vua của các bài tập là bài tập gánh tạ hoặc sử dụng tay không, người tập sẽ phải đứng lên ngồi xuống trụ bằng hai chân và vận dụng một lúc nhiều nhóm cơ khác nhau trên cơ thể như đùi, mông, hông. Thông thường, nữ sẽ tập tay không và nam sẽ sử dụng đẩy tạ kết hợp với squat.",
+      "anh": "https://i.imgur.com/nAhO35a.jpg",
+      "slug": "tin-chi-tiet-so-4"
+    },
+    {
+      "id": 5,
+      "tieuDe": "Cải thiện vóc dáng ngay lập tức với 50 bí quyết giảm cân hiệu quả",
+      "trichDan": "Để có thể nhanh chóng đạt được vóc dáng mơ ước, nhưng vẫn giữ một sức khỏe dồi dào, tinh thần thoải mái, bạn hãy thay đổi chính lối sống hàng ngày của mình, bao gồm cách ăn uống, nghỉ ngơi, phương pháp tập luyện của mình trở nên an toàn và khoa học. 50 điều sau đây đều là những bí quyết đơn giản, thực tế mà ai trong chúng ta đều có thể làm theo.",
+      "noiDung": "Chọn dùng thức ăn trong đĩa nhỏ, trang thí phòng bếp với nhiều màu xanh dương, viết nhật ký giảm cân… hoàn toàn là những tuyệt chiêu hiệu quả bất ngờ. Hãy cùng chúng tôi khám phá ngay những chia sẻ 50 bí quyết thuộc chuỗi bài 100 bí quyết giảm cân không mất sức, bạn sẽ thốt lên rằng ôi sao bỗng dưng mình thon gọn thế!” vào một ngày không xa. Mọi người đã sẵn sàng chưa?",
+      "anh": "https://i.imgur.com/LhoevEE.jpg",
+      "slug": "tin-chi-tiet-so-5"
+    },
+    {
+      "id": 6,
+      "tieuDe": "LÀM SAO ĐỂ GIẢM MỠ BỤNG DƯỚI?",
+      "trichDan": "Vùng khó giảm mỡ nhất trên cơ thể chính là bụng dưới rốn. Ngay cả khi có tập luyện, nếu thiếu đi sự hướng dẫn của chuyên gia, tập sai cách, chế độ ăn uống không phù hợp,... mỡ bụng dưới của bạn có thể sẽ không hề lay chuyển. Hãy cùng California Fitness and Yoga Centers giải đáp những lầm tưởng tai hại khiến bạn vẫn chưa thể giảm mỡ bụng dưới và sở hữu được eo thon, bụng phẳng đúng mực.",
+      "noiDung": "Một nguyên nhân khác dẫn đến tình trạng béo bụng là do nội tiết tố. Lượng estrogen, progesterone và testosterone trong cơ thể biến động theo tuổi tác. Sự mất cân bằng các nội tiết tố này có thể khiến bạn tăng cân và mỡ tích tụ ở một số vị trí nhất định. Một loại hormone khác có thể gây ra tình trạng này là cortisol, được biết đến như hormone căng thẳng. Nếu bạn bị căng thẳng, lượng hormone cortisol tăng lên, cơ thể bạn sẽ tăng cân và thường phần thân giữa sẽ tích mỡ nhiều hơn.",
+      "anh": "https://i.imgur.com/wWBopqw.jpg",
+      "slug": "tin-chi-tiet-so-6"
+    },
+    {
+      "id": 7,
+      "tieuDe": "GIẢM CÂN NHANH VÀ HIỆU QUẢ BẰNG CÀ CHUA: BÍ QUYẾT GIẢM NGAY 4KG TRONG 10 NGÀY",
+      "trichDan": "Trong cà chua chứa nhiều Vitamin A, E, C và giàu chất xơ. Ăn nhiều cà chua giúp bạn mau no, tống khứ cholesterol xấu ra ngoài, giúp giảm cân nhanh và hiệu quả. Vậy hiệu quả của cà chua trong việc giảm cân như thế nào? Cùng California Fitness & Yoga tìm hiểu cách giảm cân nhanh và hiệu quả nhờ cà chua qua bài viết sau đây nhé.",
+      "noiDung": "Từ lâu, cà chua đã nổi tiếng về công dụng làm đẹp da, giúp da sáng hồng, và đặc biệt là công dụng giảm cân. Trong một quả cà chua căng mọng chứa nhiều Vitamin và khoáng chất thiết yếu cho cơ thể như Vitamin C (39%), Vitamin A (30%), Vitamin k (12%) và Kali (12%), hàm lượng chất xơ cao, giúp mau no mà lại ít calo.",
+      "anh": "https://i.imgur.com/QSUZBxV.jpg",
+      "slug": "tin-chi-tiet-so-7"
+    },
+    {
+      "id": 8,
+      "tieuDe": "ĂN CHUỐI GIẢM CÂN HAY TĂNG CÂN?",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/wZizCAQ.jpg",
+      "slug": "tin-chi-tiet-so-8"
+    },
+    {
+      "id": 9,
+      "tieuDe": "KICKFIT LÀ GÌ? 8 ĐIỀU CẦN BIẾT VỀ BỘ MÔN KICKFIT",
+      "trichDan": "Hiện nay bộ môn Kickfit đã không còn xa lạ đối với những ai yêu thích tập luyện thể thao. Tuy nhiên vẫn có một số quan niệm sai lầm như: Kickfit chỉ là  bộ môn dành cho nam giới, hay tập luyện bộ môn này rất khó không phải ai cũng tham gia được… Những điều cần ghi nhớ dưới đây sẽ giúp bạn hiểu rõ hơn về Kickfit. Cùng California Fitness & Yoga tìm hiểu nhé.",
+      "noiDung": "Bộ môn Kickfit là môn võ giống MMA, cũng lấy cảm hứng từ nhiều phong cách võ thuật, kết hợp các động tác mạnh mẽ như đấm, đá cùng kỹ thuật tấn công, di chuyển tạo thành môn thể thao rèn luyện thể lực và thể hình săn chắc. Phong cách võ thuật được kết hợp thường thấy trong Kickfit là boxing và Muay Thái.",
+      "anh": "https://i.imgur.com/5NWfE9l.jpg",
+      "slug": "tin-chi-tiet-so-9"
+    },
+    {
+      "id": 10,
+      "tieuDe": "Lợi ích của tập thể dục nhóm",
+      "trichDan": "Không phải vô lý khi mỗi lần nói đến chuyện đến phòng tập là cả nam giới và phụ nữ đều nghĩ ngay đến việc rủ ai đó đi tập cùng “cho vui”. Và quả thật, lợi ích của tập thể dục nhóm đã được chứng minh hiệu quả tích cực tại các trung tâm thể dục thẩm mỹ hiện nay.",
+      "noiDung": "Khoảng thời gian tập luyện là lúc đầu óc được thư giãn thoải mái, có những hoạt động và giao tiếp ngoài công việc. Vì vậy, việc đến phòng tập với nhiều người sẽ gia tăng sự hào hứng, không bị trì trệ, các buổi học không tẻ nhạt và im lặng. Đặc biệt với phụ nữ sau sinh muốn giảm cân, khi được tập nhóm với những người có cùng thể trạng sẽ giúp tạo động lực quyết tâm cao hơn. Nhiều chị em phụ nữ sau sinh, trong thời gian chăm sóc con nhỏ thường ít ra ngoài, ít gặp gỡ bạn bè và tham gia vào các hoạt động tập thể, dễ gây buồn chán, trầm cảm. Chính vì thế việc tập thể dục nhóm sẽ mang lại cảm giác mới lạ, sôi động và sảng khoái tinh thần.",
+      "anh": "https://i.imgur.com/ZLDBZGH.jpg",
+      "slug": "tin-chi-tiet-so-10"
+    },
+    {
+      "id": 11,
+      "tieuDe": "TẬP GYM LÀ GÌ? CÁC THUẬT NGỮ HAY DÙNG TRONG PHÒNG TẬP GYM",
+      "trichDan": "Tập gym được xem là bộ môn giúp rèn luyện sức khỏe và ý chí của con người. Bộ môn này có nguồn gốc từ nước ngoài nên nhiều người mới luyện tập sẽ gặp khó khăn trong việc tiếp thu kiến thức và làm quen với các khái niệm. Với mong muốn các bạn hiểu rõ hơn về bộ môn này, bài viết này sẽ giới thiệu một số thuật ngữ thường gặp khi đi tập gym.",
+      "noiDung": "Bộ môn Kickfit là môn võ giống MMA, cũng lấy cảm hứng từ nhiều phong cách võ thuật, kết hợp các động tác mạnh mẽ như đấm, đá cùng kỹ thuật tấn công, di chuyển tạo thành môn thể thao rèn luyện thể lực và thể hình săn chắc. Phong cách võ thuật được kết hợp thường thấy trong Kickfit là boxing và Muay Thái.",
+      "anh": "https://i.imgur.com/axmam1d.jpg",
+      "slug": "tin-chi-tiet-so-11"
+    },
+    {
+      "id": 12,
+      "tieuDe": "CHẾ ĐỘ ĂN TĂNG CÂN TRONG 1 TUẦN DÀNH CHO NGƯỜI GẦY",
+      "trichDan": "Bạn đã quyết tâm giã từ thân hình cò hương? Bạn đã nỗ lực nạp thật nhiều chất dinh dưỡng vào cơ thể nhưng cũng chẳng thể tăng cân? Đừng lo lắng quá nhiều, có thể do bạn chưa tìm được một chế độ ăn tăng cân phù hợp với bản thân thôi! Trong bài viết dưới đây, California Fitness & Yoga sẽ chia sẻ đến bạn một chế độ ăn tăng cân trong 1 tuần hiệu quả. Cùng tham khảo nhé!",
+      "noiDung": "Bất cứ chế độ ăn tăng cân nào cũng cần đảm bảo yếu tố ăn uống đầy đủ chất dinh dưỡng.Lưu ý: với các buổi sáng, bạn nên uống sữa hoặc nước trái cây trước, khi bụng rỗng vitamin và các chất dinh dưỡng sẽ dễ dàng được hấp thụ hơn. Sau đó 1 tiếng bạn có thể bắt đầu bữa sáng.",
+      "anh": "https://i.imgur.com/OLQIwDM.jpg",
+      "slug": "tin-chi-tiet-so-12"
+    }
+  ],
+  "topnews": [
+    {
+      "id": 1,
+      "tag": "Weight",
+      "danhMuc": "Play",
+      "tieuDe": "Thực đơn tăng cân cực hiểu quả giúp thoát gầy",
+      "trichDan": "Xả cơ (Bulking) và siết cơ (cutting) là 2 kỹ thuật được “dân lành nghề gym” vô cùng quan tâm. Nếu bạn thật sự muốn sở hữu một thân hình hoàn hảo, đặc biệt là những anh chàng muốn sở hữu thân hình 6 múi sắc nét, cuồn cuộn. Ngay sau đây California Fitness & Yoga sẽ cung cấp cho bạn toàn bộ kiến thức về Siết cơ nhé. Cùng theo dõi ngay thôi!",
+      "noiDung": "Mặc dù xả cơ cho phép bạn dung nạp lượng calo nhiều hơn mức bình thường dao động khoảng 110% - 120% và nếu bạn tiêu thụ nhiều hơn sẽ rơi vào tình trạng khó kiểm soát lượng chất béo, tăng lượng mỡ và làm chậm sự phát triển của cơ bắp. Điều này khiến cho quá trình Bulking up diễn ra chậm hơn, khó khăn hơn và có thể không đem lại bất kì hiệu quả nào.",
+      "anh": "https://i.imgur.com/6p5mz1L.jpg",
+      "slug": "thuc-don-tang-can-cuc-hieu-qua-giup-thoat-gay"
+    },
+    {
+      "id": 2,
+      "tag": "Beauty",
+      "danhMuc": "Sweat",
+      "tieuDe": "Bí quyết thành công thoát gầy nhanh chóng",
+      "trichDan": "Squat là bài tập dành cho những ai mong muốn cải thiện vòng 3 khiêm tốn của mình. Đây là hình thức tập luyện không những giúp bạn sở hữu vòng 3 gợi cảm mà còn giúp đôi chân của bạn ngày càng trở nên săn chắc. Trong bài viết sau, hãy cùng California Fitness & Yoga tìm hiểu về định nghĩa của squat và những động tác squat phổ biến. Cùng tìm hiểu nhé! ",
+      "noiDung": "Tập Squat - vua của các bài tập là bài tập gánh tạ hoặc sử dụng tay không, người tập sẽ phải đứng lên ngồi xuống trụ bằng hai chân và vận dụng một lúc nhiều nhóm cơ khác nhau trên cơ thể như đùi, mông, hông. Thông thường, nữ sẽ tập tay không và nam sẽ sử dụng đẩy tạ kết hợp với squat.",
+      "anh": "https://i.imgur.com/i6Ps0xo.jpg",
+      "slug": "bi-quyet-thanh-cong-thoat-gay-nhanh-chong"
+    },
+    {
+      "id": 3,
+      "tag": "Fruit",
+      "danhMuc": "YogaBall",
+      "tieuDe": "Ăn gì để có cơ bụng 6 múi mong ước",
+      "trichDan": "Để có thể nhanh chóng đạt được vóc dáng mơ ước, nhưng vẫn giữ một sức khỏe dồi dào, tinh thần thoải mái, bạn hãy thay đổi chính lối sống hàng ngày của mình, bao gồm cách ăn uống, nghỉ ngơi, phương pháp tập luyện của mình trở nên an toàn và khoa học. 50 điều sau đây đều là những bí quyết đơn giản, thực tế mà ai trong chúng ta đều có thể làm theo.",
+      "noiDung": "Chọn dùng thức ăn trong đĩa nhỏ, trang thí phòng bếp với nhiều màu xanh dương, viết nhật ký giảm cân… hoàn toàn là những tuyệt chiêu hiệu quả bất ngờ. Hãy cùng chúng tôi khám phá ngay những chia sẻ 50 bí quyết thuộc chuỗi bài 100 bí quyết giảm cân không mất sức, bạn sẽ thốt lên rằng ôi sao bỗng dưng mình thon gọn thế!” vào một ngày không xa. Mọi người đã sẵn sàng chưa?",
+      "anh": "https://i.imgur.com/DLh1jSN.jpg",
+      "slug": "an-gi-de-co-bung-6-mui"
+    },
+    {
+      "id": 4,
+      "tag": "Lifestyle",
+      "danhMuc": "Live",
+      "tieuDe": "Protein là gì? Vai trò của nó là gì trong tập gym?",
+      "trichDan": "Vùng khó giảm mỡ nhất trên cơ thể chính là bụng dưới rốn. Ngay cả khi có tập luyện, nếu thiếu đi sự hướng dẫn của chuyên gia, tập sai cách, chế độ ăn uống không phù hợp,... mỡ bụng dưới của bạn có thể sẽ không hề lay chuyển. Hãy cùng California Fitness and Yoga Centers giải đáp những lầm tưởng tai hại khiến bạn vẫn chưa thể giảm mỡ bụng dưới và sở hữu được eo thon, bụng phẳng đúng mực.",
+      "noiDung": "Một nguyên nhân khác dẫn đến tình trạng béo bụng là do nội tiết tố. Lượng estrogen, progesterone và testosterone trong cơ thể biến động theo tuổi tác. Sự mất cân bằng các nội tiết tố này có thể khiến bạn tăng cân và mỡ tích tụ ở một số vị trí nhất định. Một loại hormone khác có thể gây ra tình trạng này là cortisol, được biết đến như hormone căng thẳng. Nếu bạn bị căng thẳng, lượng hormone cortisol tăng lên, cơ thể bạn sẽ tăng cân và thường phần thân giữa sẽ tích mỡ nhiều hơn.",
+      "anh": "https://i.imgur.com/g89OdOE.jpg",
+      "slug": "vai-tro-cua-protein"
+    },
+    {
+      "id": 5,
+      "tag": "HealthyFood",
+      "danhMuc": "Fuel",
+      "tieuDe": "Giảm cân hiệu quả cho người bận rộn",
+      "trichDan": "Trong cà chua chứa nhiều Vitamin A, E, C và giàu chất xơ. Ăn nhiều cà chua giúp bạn mau no, tống khứ cholesterol xấu ra ngoài, giúp giảm cân nhanh và hiệu quả. Vậy hiệu quả của cà chua trong việc giảm cân như thế nào? Cùng California Fitness & Yoga tìm hiểu cách giảm cân nhanh và hiệu quả nhờ cà chua qua bài viết sau đây nhé.",
+      "noiDung": "Từ lâu, cà chua đã nổi tiếng về công dụng làm đẹp da, giúp da sáng hồng, và đặc biệt là công dụng giảm cân. Trong một quả cà chua căng mọng chứa nhiều Vitamin và khoáng chất thiết yếu cho cơ thể như Vitamin C (39%), Vitamin A (30%), Vitamin k (12%) và Kali (12%), hàm lượng chất xơ cao, giúp mau no mà lại ít calo.",
+      "anh": "https://i.imgur.com/Vj6X4mo.jpg",
+      "slug": "giam-can-hieu-qua-cho-nguoi-ban-ron"
+    },
+    {
+      "id": 6,
+      "tag": "Weight",
+      "danhMuc": "Play",
+      "tieuDe": "Tập cardio nhiều có hiệu quả không?",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/XmNfoSv.jpg",
+      "slug": "tap-cardio-nhieu-co-hieu-qua-khong"
+    },
+    {
+      "id": 7,
+      "tag": "Weight",
+      "danhMuc": "Play",
+      "tieuDe": "Những bài tập cơ đùi to khỏe hiệu quả",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/ZLDBZGH.jpg",
+      "slug": "nhung-bai-tap-dui-to-khoe-hieu-qua"
+    },
+    {
+      "id": 8,
+      "tag": "Beauty",
+      "danhMuc": "Fuel",
+      "tieuDe": "Những động tác sai của người mới tập Gym",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/wWBopqw.jpg",
+      "slug": "nhung-dong-tac-de-sai-cua-nguoi-moi-tap-gym"
+    },
+    {
+      "id": 9,
+      "tag": "Beauty",
+      "danhMuc": "Fuel",
+      "tieuDe": "Những động nguyên nhân dẫn đến tình trạng béo bụng",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/LhoevEE.jpg",
+      "slug": "nhung-nguyen-nhan-dan-den-tinh-trang-beo-bung"
+    },
+    {
+      "id": 10,
+      "tag": "YogaBall",
+      "danhMuc": "Live",
+      "tieuDe": "Bài tập Yoga hiệu quả cho người mới tập",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/axmam1d.jpg",
+      "slug": "bai-tap-yoga-hieu-qua-cho-nguoi-moi-tap"
+    },
+    {
+      "id": 11,
+      "tag": "HealthyFood",
+      "danhMuc": "Live",
+      "tieuDe": "Bài tập Yoga hiệu quả cho người mới tập",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/axmam1d.jpg",
+      "slug": "bai-tap-yoga-hieu-qua-cho-nguoi-moi-tap"
+    },
+    {
+      "id": 12,
+      "tag": "Lifestyle",
+      "danhMuc": "Sweat",
+      "tieuDe": "Những phong cách thời trang cho người tập gym",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/FdBEK9n.jpg",
+      "slug": "nhung-phong-cach-thoi-trang-cho-nguoi-tap-gym"
+    },
+    {
+      "id": 13,
+      "tag": "Fruit",
+      "danhMuc": "Live",
+      "tieuDe": "Những thế võ tự vệ dành cho con gái phòng thân",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/zP224xV.jpg",
+      "slug": "nhung-the-vo-tu-ve-danh-cho-con-gai-phong-than"
+    },
+    {
+      "id": 14,
+      "tag": "Beauty",
+      "danhMuc": "Live",
+      "tieuDe": "Những thế võ tự vệ dành cho con gái phòng thân",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/AFkhlyf.jpg",
+      "slug": "con-gai-tap-gym-bat-dau-nhu-the-nao"
+    },
+    {
+      "id": 15,
+      "tag": "Sweat",
+      "danhMuc": "Live",
+      "tieuDe": "Những bài tập cardio giảm mỡ hiệu quả",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/5NWfE9l.jpg",
+      "slug": "nhung-bai-tap-cardio-giam-mo-hieu-qua"
+    },
+    {
+      "id": 16,
+      "tag": "Fruit",
+      "danhMuc": "Fuel",
+      "tieuDe": "Những bài tập Boxing hiệu quả mạnh mẽ",
+      "trichDan": "Có rất nhiều thắc mắc luôn xoay quanh câu hỏi “Ăn chuối giảm cân hay tăng cân?”. Nhiều thông tin cho rằng ăn chuối có thể giảm đến 10kg nếu đúng phương pháp và khoa học, nhưng cũng có ý kiến cho rằng chuối làm tăng cân,",
+      "noiDung": "Chuối là một trong những loại hoa quả có chứa hàm lượng chất xơ rất cao. Nó cung cấp cho cơ thể cả chất xơ hòa tan lẫn chất xơ không hòa tan trong quá trình trao đổi chất. Do đó, ăn chuối giảm cân được vì nó cung cấp một lượng chất xơ vừa đủ để tráng thành dạ dày làm chúng ta luôn có cảm giác no. Chính vì thế tạo cảm giác không muốn ăn quá nhiều trong một bữa qua đó khả năng hấp thụ thức ăn giảm đi đáng kể.",
+      "anh": "https://i.imgur.com/w2QOwnM.jpg",
+      "slug": "nhung-bai-tap-boxing-hieu-qua-manh-me"
+    }
+
+
+
+  ],
+
+
+
+
+
+
+  "teacher": [
+    {
+      "id": 1,
+      "name": "AL MORGAN",
+      "chungChi": "Chứng nhận từ Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ",
+      "kinhNghiem": "25 năm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore, và hiện nay là Việt Nam tại California Fitness & Yoga Centers.",
+      "chucDanh": "HLV Gym",
+      "img": "https://i.imgur.com/OXy9yv7.png"
+    },
+    {
+      "id": 2,
+      "name": "Tiểu Phương",
+      "chungChi": "",
+      "kinhNghiem": "Kinh nghiệm 7 năm, huấn luyện chuyên nghiệp các phương pháp giảm cân. Giải nhất cuộc thi Thay Đổi Hình Thể năm 2009, 2012.",
+      "chucDanh": "HLV Dance",
+      "img": "https://i.imgur.com/ctkbiXH.png"
+    },
+    {
+      "id": 3,
+      "name": "ISIDI",
+      "chungChi": "Chứng chỉ Thể Thao NASM Hoa Kỳ.",
+      "kinhNghiem": "Hơn 8 năm kinh nghiệm thay đổi thể hình, từng trực tiếp huấn luyện cho nhiều ngôi sao.",
+      "chucDanh": "HLV Kichfit ",
+      "img": "https://i.imgur.com/7fTfj4S.png"
+    }
+  ],
+  "lichTapAll": [
+    {
+      "id": 1,
+      "time": "10h",
+      "week": [
+        {
+          "id": 1,
+            "title": "GYM",
+            "time": "10h - 11h",
+            "name": "John Smith"
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "YOGA",
+          "time": "10.00 - 12.00",
+          "name": "John Smith"
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "BODY",
+            "time": "10.00 - 12.00",
+            "name": "Tiểu Phương"
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "CARDIO",
+            "time": "10.00 - 11.00",
+            "name": "Linh Tạ"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "time": "14h",
+      "week": [
+        {
+            "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "RUNNING",
+            "time": "14.00-16.00",
+            "name": "Tiểu Phương"
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "CROSSFIT",
+            "time": "14.00-15.00",
+            "name": "John Lee"
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "GYM",
+          "time": "14.00-16.00",
+          "name": "Lisa"
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "16h",
+      "week": [
+        {
+          "id": 1,
+            "title": "CARDIO",
+            "time": "16h - 18h",
+            "name": "John Smith"
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "GYM",
+            "time": "16.00 - 19.00",
+            "name": "John Smith"
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "YOGA",
+            "time": "16.00-18.00",
+            "name": "John Smith"
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "GYM",
+            "time": "16.00 - 20.00",
+            "name": "Linh Tạ"
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "time": "18h",
+      "week": [
+        {
+          "id": 1,
+            "title": "YOGA",
+            "time": "18.00 - 22.00",
+            "name": "John Smith"
+        },
+        {
+          "id": 2,
+            "title": "BODY",
+            "time": "18.00-20.00",
+            "name": "Linh Tạ"
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "CROSSFIT",
+            "time": "18.00-21.00",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "CARDIO",
+          "time": "18.00-22.00",
+          "name": "Adam Johne"
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "20h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "GYM",
+            "time": "20.00-12.00",
+            "name": "Tiểu Phương"
+        },
+        {
+          "id": 3,
+            "title": "BODY",
+            "time": "20.00-21.00",
+            "name": "Linh Tạ"
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "CARDIO",
+            "time": "20.00-22.00",
+            "name": "Adam Johne"
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "CROSSFIT",
+            "time": "20.00-21.00",
+            "name": "Tiểu Phương"
+        }
+      ]
+    }
+  ],
+
+  "lichTapGym": [
+    {
+      "id": 1,
+      "time": "10h",
+      "week": [
+        {
+          "id": 1,
+            "title": "GYM",
+            "time": "10h - 11h",
+            "name": "John Smith"
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "time": "14h",
+      "week": [
+        {
+            "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "GYM",
+          "time": "14.00-16.00",
+          "name": "Lisa"
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "16h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "GYM",
+            "time": "16.00 - 19.00",
+            "name": "John Smith"
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "GYM",
+            "time": "16.00 - 20.00",
+            "name": "Linh Tạ"
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "time": "18h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "20h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "GYM",
+            "time": "20.00-12.00",
+            "name": "Tiểu Phương"
+        },
+        {
+          "id": 3,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    }
+  ],
+
+
+  "lichTapCrossfit": [
+    {
+      "id": 1,
+      "time": "10h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "time": "14h",
+      "week": [
+        {
+            "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "Crossfit",
+            "time": "14.00-15.00",
+            "name": "John Lee"
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "16h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "time": "18h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "CROSSFIT",
+            "time": "18.00-21.00",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "20h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "CROSSFIT",
+            "time": "20.00-21.00",
+            "name": "Tiểu Phương"
+        }
+      ]
+    }
+  ],
+
+  "lichTapCardio": [
+    {
+      "id": 1,
+      "time": "10h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "CARDIO",
+            "time": "10.00 - 11.00",
+            "name": "Linh Tạ"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "time": "14h",
+      "week": [
+        {
+            "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "16h",
+      "week": [
+        {
+          "id": 1,
+            "title": "CARDIO",
+            "time": "16h - 18h",
+            "name": "John Smith"
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "time": "18h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "CARDIO",
+          "time": "18.00-22.00",
+          "name": "Adam Johne"
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "20h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "CARDIO",
+            "time": "20.00-22.00",
+            "name": "Adam Johne"
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    }
+  ],
+  "lichTapBody": [
+    {
+      "id": 1,
+      "time": "10h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "BODY",
+            "time": "10.00 - 12.00",
+            "name": "Tiểu Phương"
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "time": "14h",
+      "week": [
+        {
+            "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "16h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "time": "18h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "BODY",
+            "time": "18.00-20.00",
+            "name": "Linh Tạ"
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "20h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "BODY",
+            "time": "20.00-21.00",
+            "name": "Linh Tạ"
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    }
+  ],
+  "lichTapYoga": [
+    {
+      "id": 1,
+      "time": "10h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "YOGA",
+          "time": "10.00 - 12.00",
+          "name": "John Smith"
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "time": "14h",
+      "week": [
+        {
+            "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "16h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "YOGA",
+            "time": "16.00-18.00",
+            "name": "John Smith"
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "time": "18h",
+      "week": [
+        {
+          "id": 1,
+            "title": "Yoga",
+            "time": "18.00 - 22.00",
+            "name": "John Smith"
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+          "title": "",
+          "time": "",
+          "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "time": "20h",
+      "week": [
+        {
+          "id": 1,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 2,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 3,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 4,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 5,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 6,
+            "title": "",
+            "time": "",
+            "name": ""
+        },
+        {
+          "id": 7,
+            "title": "",
+            "time": "",
+            "name": ""
+        }
+      ]
+    }
+  ]
+
+}
