@@ -4,13 +4,14 @@ import { Modal } from "react-bootstrap";
 
 function Footer(props) {
   const [heart, setHeart] = useState(false);
-  const [valueip, setValueip] = useState();
+
 
 
 
   const { handleSubmit, register, errors } = useForm();
 
-  const onSubmit = (values) => {
+  const onSubmit = (values, e) => {
+    e.target.reset();
     console.log(values);
     setHeart(true);
     getHeart();
@@ -55,7 +56,7 @@ function Footer(props) {
             </div>
             <form className="subscribe-form" onSubmit={handleSubmit(onSubmit)}>
               <input
-                value={valueip}
+                
                 type="text"
                 placeholder="Enter Your Mail"
                 name="email"
