@@ -325,6 +325,7 @@
 .classes__item__pic img {
 	height: 260px;
 	cursor: pointer;
+	width: 100%;
 }
 /*---------------------
   Classes Details
