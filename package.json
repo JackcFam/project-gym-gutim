@@ -17,6 +17,7 @@
     "react-dom": "^17.0.0",
     "react-flickity-component": "^3.5.0",
     "react-hook-form": "^6.9.6",
+    "react-iframe": "^1.8.0",
     "react-messenger-customer-chat": "^0.8.0",
     "react-modal-video": "^1.2.6",
     "react-router-dom": "^5.2.0",

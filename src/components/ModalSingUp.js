@@ -61,7 +61,7 @@ function ModalSingUp(props) {
               <span className="errors-name">Không đúng định dạng</span>
             )}
             <input
-              type="number"
+              type="text"
               id="phone"
               placeholder="Số Điện Thoại"
               name="sdt"
@@ -72,7 +72,7 @@ function ModalSingUp(props) {
               })}
             />
             {errors.sdt && errors.sdt.type === "required" && (
-              <span className="errors-sdt">Phone không được bỏ trống</span>
+              <span className="errors-sdt">Số điện thoại không được bỏ trống</span>
             )}
             {errors.sdt && errors.sdt.type === "minLength" && (
               <span className="errors-sdt">

@@ -1106,7 +1106,7 @@ ol {
   text-align: center;
 }
 .breadcrumb-text h2 {
-  font-size: 60px;
+  font-size: 38px;
   color: #ffffff;
   font-weight: 600;
   text-transform: uppercase;
@@ -1309,10 +1309,11 @@ ol {
   background: linear-gradient(to right, #eb3c5a, #f67831);
   overflow: hidden;
   padding: 35px 65px 15px;
+  display: flex;
+  justify-content: space-between;
 }
 .about-counter-text .single-counter {
   float: left;
-  margin-right: 180px;
 }
 .about-counter-text .single-counter:last-child {
   margin-right: 0;
@@ -1422,7 +1423,7 @@ ol {
   line-height: 28px;
   font-size: 17px;
   display: block;
-  text-align: justify;
+  /* text-align: justify; */
   padding: 10px 10px 0 10px;
 }
 .single-blog-item h4 a:hover {
@@ -1730,7 +1731,7 @@ ol {
   border: 1px solid #e1e1e1;
   padding-left: 20px;
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .contact-form form input::-webkit-input-placeholder {
   color: #9a9a9a;
@@ -1794,6 +1795,7 @@ ol {
   background: linear-gradient(to right, #eb3c5a, #f67831);
   border: none;
   text-transform: uppercase;
+  margin-top: 15px;
 }
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
@@ -2001,6 +2003,7 @@ ol {
   }
   .about-counter-text {
     padding: 35px 35px 15px;
+    display: block;
   }
   .about-counter-text .single-counter {
     float: none;
@@ -2490,7 +2493,7 @@ ol {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 15%;
+  top: 5%;
 }
 #hoten,
 #phone,
@@ -2522,4 +2525,35 @@ ol {
 }
 .zooms1{
   margin-bottom: 30px;
+}
+.map{
+  margin-bottom: 60px;
+}
+@media (max-width: 320px){
+  .title-dang-ky{
+    font-size: 18px;
+  }
+  .tap-thu-mien-phi{
+    width: 150px;
+  }
+  .tap-thu-mien-phi p{
+    font-size: 18px;
+  }
+  #hoten, #phone, #button-submit-sign-up{
+    width: 240px;
+  }
+  .modal-body{
+    top: 10%
+  }
+}
+ .close span:first-child{
+    color: white;
+    font-size: 38px;
+  }
+.close span:first-child:hover{
+    color: orangered;
+  }
+.errors-name1{
+  color: red;
+  display: block;
 }

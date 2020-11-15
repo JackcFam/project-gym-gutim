@@ -16,13 +16,13 @@ function SlickHome(props) {
   const settings = {
     dots: true,
     infinite: false,
-    speed: 3000,
+    speed: 1500,
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
-    autoplaySpeed: 15000,
+    autoplaySpeed: 1500,
     cssEase: "linear",
     responsive: [
       {
