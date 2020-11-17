@@ -866,7 +866,7 @@ ol {
   padding-left: 20px;
   font-size: 14px;
   color: #9b9b9b;
-  margin-bottom: 18px;
+  margin-bottom: 6px;
 }
 .register-text .register-form .register-btn {
   font-size: 16px;
@@ -2547,8 +2547,11 @@ ol {
   }
 }
  .close span:first-child{
-    color: white;
+   color: orangered;
     font-size: 38px;
+    position: absolute;
+    top: 0;
+    right: 5px;
   }
 .close span:first-child:hover{
     color: orangered;
@@ -2556,4 +2559,95 @@ ol {
 .errors-name1{
   color: red;
   display: block;
+  font-size: 13px;
+  line-height: 8px !important;
+}
+.active-button{
+  color: orangered !important;
+}
+.modal-content-dang-ky > button {
+  width: 35px;
+    height: 35px;
+    display: block;
+    margin: 0rem 0rem -1rem auto !important;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+}
+.input1 {
+  padding-bottom: 10px
+}
+.container-modal{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #33333362;
+  z-index: 9999999999999;
+  backdrop-filter: blur(3px);
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+.modal-buy{
+  padding: 2.5rem;
+  width: 550px;
+  height: 650px;
+  background-image: url("https://i.imgur.com/JnIwxmV.jpg");
+  border-radius: 5px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#buy_hoten,#buy_live,#buy_bag,#buy_sdt,#buy-loinhan,#buy_email{
+  margin-bottom: 5px;
+  border-radius: 5px;
+  outline: none;
+  padding: 4px 5px;
+  width: 400px;
+  border: none;
+  text-align: start;
+  margin-bottom: 8px;
+}
+#buy-loinhan{
+  width: 400px;
+  height: 80px;
+}
+.buy-button{
+  width: 150px;
+  border-radius: 5px;
+  opacity: 0.8;
+  border: 1px solid white;
+  padding: 5px;
+  margin-top: 10px;
+}
+.buy-button:hover{
+  opacity: 1;
+}
+.modal-buy form > label {
+  color: white;
+  font-weight: 600;
+}
+.close-buy{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+.close-buy:hover{
+  color: orangered
+}
+.block{
+  display: flex !important;
+}
+.none {
+  display: none !important;
 }

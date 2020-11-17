@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import queryString from "query-string";
 function AddClass(props) {
+  let x = props.active;
+  console.log(x);
+  const [styleclass, setStyleClass] = useState(x);
   const [classes, setClasses] = useState([]);
   const [filters, setFilters] = useState({
     theLoai_like: ""
@@ -19,7 +22,8 @@ function AddClass(props) {
     setFilters({
       ...filters,
       theLoai_like: newClass,
-    })
+    });
+    setStyleClass("");
   }
   return (
     <section className="classes-section classes-page spad">
@@ -31,10 +35,16 @@ function AddClass(props) {
             </div>
             <div className="nav-controls">
               <ul>
-                <button onClick={() => handleChangeClass("")}>All Class</button>
+                <button onClick={() => handleChangeClass("")} className={styleclass}>
+                  All Class
+                </button>
                 <button onClick={() => handleChangeClass("Gym")}>Gym</button>
-                <button onClick={() => handleChangeClass("Crossfit")}>Crossfit</button>
-                <button onClick={() => handleChangeClass("Cardio")}>Cardio</button>
+                <button onClick={() => handleChangeClass("Crossfit")}>
+                  Crossfit
+                </button>
+                <button onClick={() => handleChangeClass("Cardio")}>
+                  Cardio
+                </button>
                 <button onClick={() => handleChangeClass("Body")}>Body</button>
                 <button onClick={() => handleChangeClass("Yoga")}>Yoga</button>
               </ul>

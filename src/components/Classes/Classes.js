@@ -26,7 +26,7 @@ function Classes(props) {
           </div>
         </div>
       </section>
-      <AddClass></AddClass>
+      <AddClass active="active-button"></AddClass>
       <LichTap></LichTap>
       <BannerFooter></BannerFooter>
       <BackToTop></BackToTop>

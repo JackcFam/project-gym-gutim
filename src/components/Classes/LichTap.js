@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function LichTap(props) {
-
+  const [styleclass, setStyleClass] = useState("active-button");
   const [lichtap, setLichTap] = useState([]);
   const [changeLichTap, setChangeLichTap] = useState("lichTapAll");
 
@@ -18,6 +18,7 @@ function LichTap(props) {
   function handleChangeLichTap(e) {
     let newS = e.target.value;
     setChangeLichTap(newS);
+    setStyleClass("");
   }
 
   return (
@@ -30,7 +31,7 @@ function LichTap(props) {
             </div>
             <div className="nav-controls">
               <ul>
-                <button value="lichTapAll" onClick={handleChangeLichTap} >
+                <button value="lichTapAll" onClick={handleChangeLichTap} className={styleclass}>
                   All Class
                 </button>
                 <button value="LichTapGym" onClick={handleChangeLichTap}>Gym</button>
