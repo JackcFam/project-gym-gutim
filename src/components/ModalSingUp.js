@@ -6,8 +6,9 @@ function ModalSingUp(props) {
   const { register, handleSubmit, errors } = useForm();
 
     const onSubmit = (data, e) => {
-        e.target.reset();
-        alert("Đăng ký thành công");
+      e.target.reset();
+      props.onHide();
+      alert("Đăng ký thành công");
   };
   return (
       <Modal

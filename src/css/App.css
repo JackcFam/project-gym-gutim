@@ -2592,7 +2592,7 @@ ol {
   transition: all 0.5s ease-in-out;
 }
 .modal-buy{
-  padding: 2.5rem;
+  padding: 3rem 1.5rem;
   width: 550px;
   height: 650px;
   background-image: url("https://i.imgur.com/JnIwxmV.jpg");
@@ -2611,12 +2611,12 @@ ol {
   outline: none;
   padding: 4px 5px;
   width: 400px;
-  border: none;
+  min-width: 100%;
   text-align: start;
   margin-bottom: 8px;
+  border: 0;
 }
 #buy-loinhan{
-  width: 400px;
   height: 80px;
 }
 .buy-button{
@@ -2650,4 +2650,17 @@ ol {
 }
 .none {
   display: none !important;
+}
+@media (max-width: 600px){
+  .modal-buy form {
+    max-width: 100%;
+    height: 620px;
+  }
+  #buy_hoten, #buy_live, #buy_bag, #buy_sdt, #buy-loinhan, #buy_email {
+    width: 100%;
+  }
+  .close-buy{
+    top: 5%;
+    right: 6%;
+  }
 }

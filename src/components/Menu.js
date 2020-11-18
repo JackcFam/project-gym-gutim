@@ -2,12 +2,6 @@ import React, { useState } from "react";
 import "../css/font-awesome.min.css";
 import { NavLink } from "react-router-dom";
 import ModalSingUp from "./ModalSingUp";
-// import PropTypes from 'prop-types';
-
-// Menu.propTypes = {
-
-// };
-
 function Menu() {
   const [showModal, setModalShow] = useState(false);
 
